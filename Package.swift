@@ -4,18 +4,18 @@
 //
 //  Created by Shadhin Music on 26/4/26.
 //
+// swift-tools-version: 5.9
 
-// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "MyGpShadhinMusicSPM",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
-            name: "ShadhinGP",
+            name: "MyGpShadhinMusicSPM",
             targets: ["ShadhinGP"]
         ),
     ],
@@ -25,4 +25,4 @@ let package = Package(
             path: "Sources/ShadhinGP/Shadhin_Gp.xcframework"
         )
     ]
-)
+))
