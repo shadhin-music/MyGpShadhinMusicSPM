@@ -1,0 +1,6 @@
+framework module Shadhin_Gp {
+  umbrella header "Shadhin_Gp.h"
+  export *
+
+  module * { export * }
+}
