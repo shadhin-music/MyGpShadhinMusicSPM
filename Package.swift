@@ -1,11 +1,4 @@
-//
-//  Package.swift
-//  
-//
-//  Created by Shadhin Music on 26/4/26.
-//
 // swift-tools-version: 5.9
-
 import PackageDescription
 
 let package = Package(
@@ -25,4 +18,4 @@ let package = Package(
             path: "Sources/ShadhinGP/Shadhin_Gp.xcframework"
         )
     ]
-))
+)
