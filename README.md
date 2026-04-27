@@ -16,7 +16,7 @@
 | Minimum iOS Version | 14.0+ |
 | Language | Objective-C, Swift |
 | Package Manager | Swift Package Manager (SPM) |
-| Current Version | 1.0.1 |
+| Current Version | ![Version](https://img.shields.io/github/v/tag/shadhin-music/MyGpShadhinMusicSPM?label=) |
 
 This document provides full integration instructions for vendors implementing the Shadhin GP Music SDK in their iOS apps. It covers SPM setup, MSISDN authentication flow, API token handling, Vmax ad initialization, and UI integration.
 
