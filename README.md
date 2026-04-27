@@ -203,44 +203,6 @@ class ViewController: UIViewController, ShadhinMusicViewDelegate {
         }
     }
 
-    // MARK: - Login API
-
-    func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
-        let url = URL(string: "https://connect.shadhinmusic.com/api/v1/user/gp-login")!
-
-        let json: [String: Any] = [
-            "MSISDN": msisdn,
-            "vendorId": "vendorId-\(msisdn)",
-            "deviceId": "deviceId-\(msisdn)",
-            "deviceName": "testDevice-\(msisdn)"
-        ]
-
-        let jsonData = try! JSONSerialization.data(withJSONObject: json, options: [])
-
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
-        request.setValue("YOUR_API_KEY", forHTTPHeaderField: "x-api-key")
-        request.setValue("YOUR_CLIENT_SECRET", forHTTPHeaderField: "client-secret")
-        request.httpBody = jsonData
-
-        URLSession.shared.dataTask(with: request) { data, _, error in
-            if let error = error { print("Error: \(error)"); return }
-            guard let data = data else { print("No data"); return }
-
-            do {
-                if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
-                   let dataObj = json["data"] as? [String: Any],
-                   let accessToken = dataObj["accessToken"] as? String {
-                    completion(accessToken)
-                }
-            } catch {
-                print("JSON parsing error: \(error)")
-            }
-        }.resume()
-    }
-}
-
 // MARK: - Vmax Initialization Delegate
 
 extension ViewController: InitializationStatusDelegate {
