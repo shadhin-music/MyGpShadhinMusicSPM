@@ -397,7 +397,7 @@ ShadhinCore.instance.defaults.fcmToken = fcmToken
 
 ## Author
 
-**[MD Murad Hossain](https://www.linkedin.com/in/muradhossainm01)** — [muradhossainshadhinmusic@gmail.com](mailto:muradhossainshadhinmusic@gmail.com)
+**[MD Murad Hossain](https://www.linkedin.com/in/muradhossainm01)** — [muradhossain@shadhinmusic.com](mailto:muradhossain@shadhinmusic.com)
 
 ## Company
 
