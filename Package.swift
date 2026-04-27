@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MyGpShadhinMusicSPM",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v14)
     ],
     products: [
         .library(
