@@ -395,20 +395,6 @@ ShadhinCore.instance.defaults.fcmToken = fcmToken
 
 ---
 
-## 13. Support & Contact
-
-| | |
-|---|---|
-| **Author** | MD Murad Hossain |
-| **Role** | iOS Developer — Shadhin Music |
-| **Email** | muradhossainshadhinmusic@gmail.com |
-| **Company** | Shadhin Music Limited (Cloud 7 Limited) |
-
----
-
-*© Cloud 7 Limited. All rights reserved.*
-
-
 ## Author
 
 **[MD Murad Hossain](https://www.linkedin.com/in/muradhossainm01)** — [muradhossainshadhinmusic@gmail.com](mailto:muradhossainshadhinmusic@gmail.com)
@@ -421,4 +407,4 @@ ShadhinCore.instance.defaults.fcmToken = fcmToken
 
 ## License
 
-© Cloud 7 Limited. All rights reserved.
+*© Cloud 7 Limited. All rights reserved.*
