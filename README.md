@@ -142,7 +142,8 @@ struct MyApp: App {
 ### Create IBOutlet
 
 ```swift
-@IBOutlet weak var gpMusicView: ShadhinMusicView!
+    private var shadhinMuicView = ShadhinMusicView()
+
 ```
 
 ---
@@ -158,33 +159,56 @@ import Vmax
 
 class ViewController: UIViewController, ShadhinMusicViewDelegate {
 
-    @IBOutlet weak var gpMusicView: ShadhinMusicView!
-
+    private var shadhinMuicView = ShadhinMusicView()
+    
     // Demo MSISDN — replace with real user MSISDN in production
     let demoMSISDN = "88017XXXXXXXX"
-
+    
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        gpMusicView.gpDeletegate = self
-        ShadhinGP.shared.eventDelegate = self
-        gpMusicView.exPlore = {
-            self.gpMusicView.gotoShadhinSDK()
-        }
+        setupShadhinMusicView()
+        setupDelegates()
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.navigationBar.isHidden = true
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
+    // MARK: - Setup
+    
+    private func setupShadhinMusicView() {
+        self.shadhinMuicView.frame = self.view.bounds
+        self.shadhinMuicView.backgroundColor = .white
+        self.view.backgroundColor = .white
+        self.view.addSubview(shadhinMuicView)
+        NSLayoutConstraint.activate([
+            shadhinMuicView.topAnchor.constraint(equalTo: view.topAnchor),
+            shadhinMuicView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            shadhinMuicView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            shadhinMuicView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ])
+    }
+    
+    private func setupDelegates() {
+        shadhinMuicView.gpDeletegate = self
+        ShadhinGP.shared.eventDelegate = self
+        shadhinMuicView.exPlore = { [weak self] in
+            self?.shadhinMuicView.gotoShadhinSDK()
+        }
     }
 
     // MARK: - ShadhinMusicViewDelegate
 
-    func gotoShadhinSDK(completionHandler: @escaping (UIViewController, String) -> Void) {
+    func gotoShadhinSDK(completionHandler: @escaping (UIViewController, String, UINavigationController?) -> Void) {
         // See Section 7 for loginUser() implementation
         loginUser(msisdn: demoMSISDN) { [weak self] token in
             guard let self = self else { return }
-            completionHandler(self, token)
             DispatchQueue.main.async {
+                completionHandler(self, token, self.navigationController)
+                
                 ShadhinVmaxInitializer.shared.initialize(
                     vmaxAccountKey: "YOUR_VMAX_ACCOUNT_KEY",
                     vmaxAppId:      "YOUR_VMAX_APP_ID",
@@ -210,15 +234,69 @@ extension ViewController: InitializationStatusDelegate {
     }
 }
 
-// MARK: - Analytics Event Delegate
+ // MARK: - ShadhinGPEventDelegate
+ extension ViewController: ShadhinGpEventCallback {
+     
+     func onEvent(_ event: ShadhinGpAnalyticsEvent) {
+         switch event {
 
-extension ViewController: ShadhinGPEventDelegate {
-    func shadhinGP(didTriggerEvent payload: [String: Any]) {
-        let eventName = payload["shadhin_gp_event_name"] as? String ?? ""
-        print("Shadhin event: \(eventName)")
-        // Forward to Firebase, Mixpanel, etc.
-    }
-}
+         case let .trackItemClick(title, contentId, contentType):
+             dprint("Track Click:", title, contentId, contentType)
+
+         case let .patchItemClick(title, contentId, contentType):
+             dprint("Patch Click:", title, contentId, contentType)
+
+         case let .shortsItemClick(title, contentId, contentType):
+             dprint("Shorts Click:", title, contentId, contentType)
+
+         case let .playPauseMusicClick(isPlaying, title, contentId, contentType):
+             dprint("isPlaying:", isPlaying, title, contentId, contentType)
+
+         case .previousMusicClick:
+             dprint("Previous Music Click")
+
+         case .nextMusicClick:
+             dprint("Next Music Click")
+             
+         case .sliderDidClick:
+             dprint("Slider Did Click")
+
+         case .logoClick:
+             dprint("Logo Click")
+
+         case .exploreMoreClick:
+             dprint("Explore More")
+             
+         case let .shadhinVmaxEvent(payload):
+             prettyPrintJSON(payload)
+             
+         default:
+             break
+         }
+     }
+ 
+     func prettyPrintJSON(_ dictionary: [String: Any]) {
+         
+         guard JSONSerialization.isValidJSONObject(dictionary) else {
+             dprint("❌ Invalid JSON")
+             return
+         }
+         
+         do {
+             let data = try JSONSerialization.data(
+                 withJSONObject: dictionary,
+                 options: [.prettyPrinted]
+             )
+             
+             if let jsonString = String(data: data, encoding: .utf8) {
+                 dprint(jsonString)
+             }
+             
+         } catch {
+             dprint("❌ JSON Print Error:", error)
+         }
+     }
+ }
 ```
 
 ---

@@ -41,7 +41,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ShadhinGP : ObjectiveC.NSObject {
   public static let shared: Shadhin_Gp.ShadhinGP
-  weak final public var eventDelegate: (any Shadhin_Gp.ShadhinGPEventDelegate)?
+  weak final public var eventDelegate: (any Shadhin_Gp.ShadhinGpEventCallback)?
   final public var isVmaxInitialized: Swift.Bool
   @objc deinit
 }
@@ -2339,6 +2339,10 @@ extension Shadhin_Gp.AudioPlayer {
   public func add(items: [Shadhin_Gp.AudioItem])
   public func removeItem(at index: Swift.Int)
 }
+public struct GPContent : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 @available(iOS 8.0, *)
 public typealias ConstraintLayoutSupport = UIKit.UILayoutSupport
 extension Shadhin_Gp.CS.BigUInt : Swift.Comparable {
@@ -3224,7 +3228,9 @@ public class JSONHubProtocol : Shadhin_Gp.HubProtocol {
   @_Concurrency.MainActor @preconcurrency public var exPlore: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var goToSdk: (Swift.String) -> Swift.Void
   @_Concurrency.MainActor @preconcurrency public var gpDeletegate: (any Shadhin_Gp.ShadhinMusicViewDelegate)?
-  @_Concurrency.MainActor @preconcurrency public static var pendingShortsURL: Swift.String?
+  @_Concurrency.MainActor @preconcurrency public static var didSelectContent: Shadhin_Gp.GPContent?
+  @_Concurrency.MainActor @preconcurrency public static var shortsPatchID: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public static var shortsSelectContent: Shadhin_Gp.ReelsContent?
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func willMove(toWindow newWindow: UIKit.UIWindow?)
@@ -3243,6 +3249,7 @@ extension Shadhin_Gp.ShadhinMusicView : UIKit.UICollectionViewDelegate, UIKit.UI
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
 }
 extension Shadhin_Gp.ShadhinMusicView : Shadhin_Gp.AudioPlayerDelegate {
   @_Concurrency.MainActor @preconcurrency public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didFindDuration duration: Foundation.TimeInterval, for item: Shadhin_Gp.AudioItem)
@@ -3258,7 +3265,9 @@ extension Shadhin_Gp.ShadhinMusicView : Shadhin_Gp.iCarouselDataSource, Shadhin_
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func carouselDidEndScrollingAnimation(_ carousel: Shadhin_Gp.iCarousel)
 }
 public protocol ShadhinMusicViewDelegate {
-  func gotoShadhinSDK(completionHandler: @escaping (UIKit.UIViewController, Swift.String) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
+  func gotoShadhinSDK(completionHandler: @escaping (UIKit.UIViewController, Swift.String, UIKit.UINavigationController?) -> Swift.Void)
+  #endif
 }
 extension Shadhin_Gp.CS.BigUInt {
   public static func randomInteger<RNG>(withMaximumWidth width: Swift.Int, using generator: inout RNG) -> Shadhin_Gp.CS.BigUInt where RNG : Swift.RandomNumberGenerator
@@ -5898,6 +5907,10 @@ public struct PatchItem : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct ReelsContent : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 @_hasMissingDesignatedInitializers public class ShadhinApiContants {
   @objc deinit
 }
@@ -5984,6 +5997,10 @@ extension Shadhin_Gp.PBPopupCloseButtonStyle {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ShadhinCore {
+  public static let instance: Shadhin_Gp.ShadhinCore
+  final public let api: Shadhin_Gp.ShadhinApi
+  public var isHomeLoaded: Swift.Bool
+  public var isBangla: Swift.Bool
   public func addNotifier(notifier: any Shadhin_Gp.ShadhinCoreNotifications)
   public func removeNotifier(notifier: any Shadhin_Gp.ShadhinCoreNotifications)
   #if compiler(>=5.3) && $NonescapableTypes
@@ -6244,8 +6261,21 @@ extension UIKit.UILayoutGuide {
     get
   }
 }
-public protocol ShadhinGPEventDelegate : AnyObject {
-  func shadhinGP(didTriggerEvent payload: [Swift.String : Any])
+public protocol ShadhinGpEventCallback : AnyObject {
+  func onEvent(_ event: Shadhin_Gp.ShadhinGpAnalyticsEvent)
+}
+public enum ShadhinGpAnalyticsEvent {
+  case trackItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case patchItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case shortsItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case playPauseMusicClick(isPlaying: Swift.Bool, title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case previousMusicClick
+  case nextMusicClick
+  case sliderDidClick
+  case logoClick
+  case exploreMoreClick
+  case shadhinVmaxEvent(payload: [Swift.String : Any])
+  case shareClick(rcCode: Swift.String, title: Swift.String, imageUrl: Swift.String)
 }
 public struct SRRetryContext {
   public let failedAttemptsCount: Swift.Int
