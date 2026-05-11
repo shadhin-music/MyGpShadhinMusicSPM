@@ -14,7 +14,7 @@
 | SDK Name | Shadhin_Gp |
 | Platform | iOS |
 | Minimum iOS Version | 14.0+ |
-| Language | Objective-C, Swift |
+| Language | Swift, Objective-C |
 | Package Manager | Swift Package Manager (SPM) |
 | Current Version | ![Version](https://img.shields.io/github/v/tag/shadhin-music/MyGpShadhinMusicSPM?label=) |
 
