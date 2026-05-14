@@ -4156,6 +4156,10 @@ extension Shadhin_Gp.RecentlyPlayed {
     @objc get
     @objc set
   }
+  @objc @NSManaged nonisolated dynamic public var isUserCreated: Swift.Bool {
+    @objc get
+    @objc set
+  }
   #if compiler(>=5.3) && $NonescapableTypes
   @objc @NSManaged nonisolated dynamic public var playURL: Swift.String? {
     @objc get
@@ -5076,6 +5080,10 @@ extension Shadhin_Gp.FavoriteCache {
   }
   #endif
   @objc @NSManaged nonisolated dynamic public var isPaid_: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged nonisolated dynamic public var isUserCreated_: Swift.Bool {
     @objc get
     @objc set
   }
