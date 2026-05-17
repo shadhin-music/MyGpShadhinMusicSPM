@@ -462,7 +462,7 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9V7YvJPbYDxPOCt5uRIwigDSCTI=
+		1vcfe+m1oPF8mfsZwX+LPpdJTJE=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -478,11 +478,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Vjg+3n4NCXUqXPN9rvk+k4V0DUQ=
+		r4DuL28rEYdoOr7MUP+Nwn0gJ6o=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9V7YvJPbYDxPOCt5uRIwigDSCTI=
+		1vcfe+m1oPF8mfsZwX+LPpdJTJE=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -498,7 +498,7 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5FsX2VVZXVjGx0pkRCgAILVji0Q=
+		FdQzCBNZIDqLhNbhVKGphylI4rM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -566,7 +566,7 @@
 		</data>
 		<key>MyMusic.storyboardc/2mo-NK-SC8-view-EkH-6K-NjW.nib</key>
 		<data>
-		LPjkV8ez3JLs6hl/51AsPawryks=
+		fl8wSNp8BDnjGwskgk1gjKBg21A=
 		</data>
 		<key>MyMusic.storyboardc/B4g-Eo-e7p-view-xHc-lL-Cey.nib</key>
 		<data>
@@ -610,7 +610,7 @@
 		</data>
 		<key>MyMusic.storyboardc/klt-ob-RyM-view-cHd-i3-ALR.nib</key>
 		<data>
-		JM4UgH1RvhRLV3ohq0WwPWfoHH0=
+		ouEHkX0NYLhqVU1OqPmDG3nM4Ss=
 		</data>
 		<key>MyPlaylistGridCell.nib</key>
 		<data>
@@ -2143,7 +2143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KjJRhrlrJgOIvStx1staJ6Z5IFk/lhuJRxtH2XSDIAQ=
+			wsih0j80+2JiM7QViTCRwyn5iQt1e+fr+cZMykWTOtg=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -2171,14 +2171,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/VoqYBB3xYZMfHw0obZggG31IjxGEj95Ne25738G0m0=
+			/69yh0eYjTSjJifpoOVtdbasJwxi/ylHEn+pajkKtoM=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KjJRhrlrJgOIvStx1staJ6Z5IFk/lhuJRxtH2XSDIAQ=
+			wsih0j80+2JiM7QViTCRwyn5iQt1e+fr+cZMykWTOtg=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -2206,7 +2206,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bXdRP3jYlopT4kSbugHkuYmmb2Cjl6xqp7sAaWz6u2Y=
+			uEcfDpNRbqLPXf9Th7suwOG7DbL5NA26QKsawZXu28c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2325,7 +2325,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qIx+DeoNbAIYFlFI0FVoUWWQG02C1rrd0t/ne2NqoYo=
+			1jlCR831YCs6QdKIWM2e+9XBzQyqJDxEe84TEKMQ6l8=
 			</data>
 		</dict>
 		<key>MyMusic.storyboardc/B4g-Eo-e7p-view-xHc-lL-Cey.nib</key>
@@ -2402,7 +2402,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x5/W/w+/gcqDWel2ugwO2yR+S6tkLhv8+BNHtB84sQ0=
+			ynjOGA4W3YZ0LHOqjnQoeefc62z6EIM3gCQZhvZ8Gz8=
 			</data>
 		</dict>
 		<key>MyPlaylistGridCell.nib</key>
