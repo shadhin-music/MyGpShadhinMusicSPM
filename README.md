@@ -241,31 +241,31 @@ extension ViewController: InitializationStatusDelegate {
          switch event {
 
          case let .trackItemClick(title, contentId, contentType):
-             dprint("Track Click:", title, contentId, contentType)
+             print("Track Click:", title, contentId, contentType)
 
          case let .patchItemClick(title, contentId, contentType):
-             dprint("Patch Click:", title, contentId, contentType)
+             print("Patch Click:", title, contentId, contentType)
 
          case let .shortsItemClick(title, contentId, contentType):
-             dprint("Shorts Click:", title, contentId, contentType)
+             print("Shorts Click:", title, contentId, contentType)
 
          case let .playPauseMusicClick(isPlaying, title, contentId, contentType):
-             dprint("isPlaying:", isPlaying, title, contentId, contentType)
+             print("isPlaying:", isPlaying, title, contentId, contentType)
 
          case .previousMusicClick:
-             dprint("Previous Music Click")
+             print("Previous Music Click")
 
          case .nextMusicClick:
-             dprint("Next Music Click")
+             print("Next Music Click")
              
          case .sliderDidClick:
-             dprint("Slider Did Click")
+             print("Slider Did Click")
 
          case .logoClick:
-             dprint("Logo Click")
+             print("Logo Click")
 
          case .exploreMoreClick:
-             dprint("Explore More")
+             print("Explore More")
              
          case let .shadhinVmaxEvent(payload):
              prettyPrintJSON(payload)
@@ -278,7 +278,7 @@ extension ViewController: InitializationStatusDelegate {
      func prettyPrintJSON(_ dictionary: [String: Any]) {
          
          guard JSONSerialization.isValidJSONObject(dictionary) else {
-             dprint("❌ Invalid JSON")
+             print("❌ Invalid JSON")
              return
          }
          
@@ -289,11 +289,11 @@ extension ViewController: InitializationStatusDelegate {
              )
              
              if let jsonString = String(data: data, encoding: .utf8) {
-                 dprint(jsonString)
+                 print(jsonString)
              }
              
          } catch {
-             dprint("❌ JSON Print Error:", error)
+             print("❌ JSON Print Error:", error)
          }
      }
  }
@@ -307,7 +307,7 @@ Vendors must call this API to exchange the user MSISDN for an access token.
 
 | Field | Value |
 |---|---|
-| Endpoint | `https://connect.shadhinmusic.com/api/v1/user/gp-login` |
+| Endpoint | Provided by Shadhin Music |
 | Method | `POST` |
 | Header: Content-Type | `application/json; charset=utf-8` |
 | Header: x-api-key | Provided by Shadhin Music |
