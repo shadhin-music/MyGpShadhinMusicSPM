@@ -380,7 +380,7 @@ Common HTTP error codes:
 
 ```swift
 func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
-    let url = URL(string: "https://connect.shadhinmusic.com/api/v1/user/gp-login")!
+    let url = URL(string: "SHADHIN_PROVIDED_API")!
     let json: [String: Any] = [
         "MSISDN":     msisdn,
         "vendorId":   "vendorId-\(msisdn)",
