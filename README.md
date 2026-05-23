@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/Platform-iOS%2014.0%2B-blue)
 ![Swift](https://img.shields.io/badge/Swift-5.9%2B-orange)
 ![SPM](https://img.shields.io/badge/SPM-Compatible-brightgreen)
-![Version](https://img.shields.io/badge/Version-1.0.6-blue)
+![Version](https://img.shields.io/github/v/tag/shadhin-music/MyGpShadhinMusicSPM?label=)
 
 ---
 
