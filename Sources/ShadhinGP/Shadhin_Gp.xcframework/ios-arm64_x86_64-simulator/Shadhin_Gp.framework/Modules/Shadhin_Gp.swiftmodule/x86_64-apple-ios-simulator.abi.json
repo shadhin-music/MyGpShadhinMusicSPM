@@ -185,6 +185,119 @@
           },
           {
             "kind": "Var",
+            "name": "configDataSource",
+            "printedName": "configDataSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Shadhin_Gp.ShadhinGpConfigurationDataSource)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Shadhin_Gp0A2GPC16configDataSourceAA0ab13ConfigurationeF0_pSgvp",
+            "mangledName": "$s10Shadhin_Gp0A2GPC16configDataSourceAA0ab13ConfigurationeF0_pSgvp",
+            "moduleName": "Shadhin_Gp",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Shadhin_Gp.ShadhinGpConfigurationDataSource)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpConfigurationDataSource",
+                        "printedName": "any Shadhin_Gp.ShadhinGpConfigurationDataSource",
+                        "usr": "s:10Shadhin_Gp0aB23ConfigurationDataSourceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0A2GPC16configDataSourceAA0ab13ConfigurationeF0_pSgvg",
+                "mangledName": "$s10Shadhin_Gp0A2GPC16configDataSourceAA0ab13ConfigurationeF0_pSgvg",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Shadhin_Gp.ShadhinGpConfigurationDataSource)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpConfigurationDataSource",
+                        "printedName": "any Shadhin_Gp.ShadhinGpConfigurationDataSource",
+                        "usr": "s:10Shadhin_Gp0aB23ConfigurationDataSourceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0A2GPC16configDataSourceAA0ab13ConfigurationeF0_pSgvs",
+                "mangledName": "$s10Shadhin_Gp0A2GPC16configDataSourceAA0ab13ConfigurationeF0_pSgvs",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0A2GPC16configDataSourceAA0ab13ConfigurationeF0_pSgvM",
+                "mangledName": "$s10Shadhin_Gp0A2GPC16configDataSourceAA0ab13ConfigurationeF0_pSgvM",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isVmaxInitialized",
             "printedName": "isVmaxInitialized",
             "children": [
@@ -278,6 +391,27 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "fontInit",
+            "printedName": "fontInit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_Gp0A2GPC8fontInityyF",
+            "mangledName": "$s10Shadhin_Gp0A2GPC8fontInityyF",
+            "moduleName": "Shadhin_Gp",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -14184,6 +14318,556 @@
         "moduleName": "Shadhin_Gp",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShadhinGpConfigurationDataSource",
+        "printedName": "ShadhinGpConfigurationDataSource",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "shadhinGpFontName",
+            "printedName": "shadhinGpFontName(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ShadhinGpFontStyle",
+                "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_Gp0aB23ConfigurationDataSourceP07shadhinB8FontName3forSSSgAA0abG5StyleO_tF",
+            "mangledName": "$s10Shadhin_Gp0aB23ConfigurationDataSourceP07shadhinB8FontName3forSSSgAA0abG5StyleO_tF",
+            "moduleName": "Shadhin_Gp",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_Gp.ShadhinGpConfigurationDataSource>",
+            "sugared_genericSig": "<Self where Self : Shadhin_Gp.ShadhinGpConfigurationDataSource>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Shadhin_Gp0aB23ConfigurationDataSourceP",
+        "mangledName": "$s10Shadhin_Gp0aB23ConfigurationDataSourceP",
+        "moduleName": "Shadhin_Gp",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShadhinGpFontStyle",
+        "printedName": "ShadhinGpFontStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fontTitle",
+            "printedName": "fontTitle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpFontStyle.Type) -> Shadhin_Gp.ShadhinGpFontStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpFontStyle",
+                    "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                    "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpFontStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpFontStyle",
+                        "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                        "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB9FontStyleO9fontTitleyA2CmF",
+            "mangledName": "$s10Shadhin_Gp0aB9FontStyleO9fontTitleyA2CmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "fontSubtitle",
+            "printedName": "fontSubtitle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpFontStyle.Type) -> Shadhin_Gp.ShadhinGpFontStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpFontStyle",
+                    "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                    "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpFontStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpFontStyle",
+                        "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                        "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB9FontStyleO12fontSubtitleyA2CmF",
+            "mangledName": "$s10Shadhin_Gp0aB9FontStyleO12fontSubtitleyA2CmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "fontBody",
+            "printedName": "fontBody",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpFontStyle.Type) -> Shadhin_Gp.ShadhinGpFontStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpFontStyle",
+                    "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                    "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpFontStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpFontStyle",
+                        "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                        "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB9FontStyleO8fontBodyyA2CmF",
+            "mangledName": "$s10Shadhin_Gp0aB9FontStyleO8fontBodyyA2CmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ShadhinGpFontStyle",
+                "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ShadhinGpFontStyle",
+                "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_Gp0aB9FontStyleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10Shadhin_Gp0aB9FontStyleO2eeoiySbAC_ACtFZ",
+            "moduleName": "Shadhin_Gp",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Shadhin_Gp0aB9FontStyleO9hashValueSivp",
+            "mangledName": "$s10Shadhin_Gp0aB9FontStyleO9hashValueSivp",
+            "moduleName": "Shadhin_Gp",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0aB9FontStyleO9hashValueSivg",
+                "mangledName": "$s10Shadhin_Gp0aB9FontStyleO9hashValueSivg",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_Gp0aB9FontStyleO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10Shadhin_Gp0aB9FontStyleO4hash4intoys6HasherVz_tF",
+            "moduleName": "Shadhin_Gp",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10Shadhin_Gp0aB9FontStyleO",
+        "mangledName": "$s10Shadhin_Gp0aB9FontStyleO",
+        "moduleName": "Shadhin_Gp",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShadhinGpFontProvider",
+        "printedName": "ShadhinGpFontProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShadhinGpFontProvider",
+                "printedName": "Shadhin_Gp.ShadhinGpFontProvider",
+                "usr": "s:10Shadhin_Gp0aB12FontProviderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Shadhin_Gp0aB12FontProviderC6sharedACvpZ",
+            "mangledName": "$s10Shadhin_Gp0aB12FontProviderC6sharedACvpZ",
+            "moduleName": "Shadhin_Gp",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpFontProvider",
+                    "printedName": "Shadhin_Gp.ShadhinGpFontProvider",
+                    "usr": "s:10Shadhin_Gp0aB12FontProviderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0aB12FontProviderC6sharedACvgZ",
+                "mangledName": "$s10Shadhin_Gp0aB12FontProviderC6sharedACvgZ",
+                "moduleName": "Shadhin_Gp",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataSource",
+            "printedName": "dataSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Shadhin_Gp.ShadhinGpConfigurationDataSource)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Shadhin_Gp0aB12FontProviderC10dataSourceAA0ab17ConfigurationDataF0_pSgvp",
+            "mangledName": "$s10Shadhin_Gp0aB12FontProviderC10dataSourceAA0ab17ConfigurationDataF0_pSgvp",
+            "moduleName": "Shadhin_Gp",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Shadhin_Gp.ShadhinGpConfigurationDataSource)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpConfigurationDataSource",
+                        "printedName": "any Shadhin_Gp.ShadhinGpConfigurationDataSource",
+                        "usr": "s:10Shadhin_Gp0aB23ConfigurationDataSourceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0aB12FontProviderC10dataSourceAA0ab17ConfigurationDataF0_pSgvg",
+                "mangledName": "$s10Shadhin_Gp0aB12FontProviderC10dataSourceAA0ab17ConfigurationDataF0_pSgvg",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Shadhin_Gp.ShadhinGpConfigurationDataSource)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpConfigurationDataSource",
+                        "printedName": "any Shadhin_Gp.ShadhinGpConfigurationDataSource",
+                        "usr": "s:10Shadhin_Gp0aB23ConfigurationDataSourceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0aB12FontProviderC10dataSourceAA0ab17ConfigurationDataF0_pSgvs",
+                "mangledName": "$s10Shadhin_Gp0aB12FontProviderC10dataSourceAA0ab17ConfigurationDataF0_pSgvs",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0aB12FontProviderC10dataSourceAA0ab17ConfigurationDataF0_pSgvM",
+                "mangledName": "$s10Shadhin_Gp0aB12FontProviderC10dataSourceAA0ab17ConfigurationDataF0_pSgvM",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "font",
+            "printedName": "font(for:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ShadhinGpFontStyle",
+                "printedName": "Shadhin_Gp.ShadhinGpFontStyle",
+                "usr": "s:10Shadhin_Gp0aB9FontStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_Gp0aB12FontProviderC4font3for4sizeSo6UIFontCAA0abC5StyleO_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$s10Shadhin_Gp0aB12FontProviderC4font3for4sizeSo6UIFontCAA0abC5StyleO_12CoreGraphics7CGFloatVtF",
+            "moduleName": "Shadhin_Gp",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10Shadhin_Gp0aB12FontProviderC",
+        "mangledName": "$s10Shadhin_Gp0aB12FontProviderC",
+        "moduleName": "Shadhin_Gp",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -119885,6 +120569,36 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_Gp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "registerFonts",
+        "printedName": "registerFonts()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:10Shadhin_Gp13registerFontsyyF",
+        "mangledName": "$s10Shadhin_Gp13registerFontsyyF",
+        "moduleName": "Shadhin_Gp",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -119902,6 +120616,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_Gp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_Gp"
       },
       {
         "kind": "Import",
@@ -120736,6 +121467,702 @@
         "moduleName": "Shadhin_Gp",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShadhinGpEventCallback",
+        "printedName": "ShadhinGpEventCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onEvent",
+            "printedName": "onEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ShadhinGpAnalyticsEvent",
+                "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_Gp0aB13EventCallbackP02onC0yyAA0ab9AnalyticsC0OF",
+            "mangledName": "$s10Shadhin_Gp0aB13EventCallbackP02onC0yyAA0ab9AnalyticsC0OF",
+            "moduleName": "Shadhin_Gp",
+            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_Gp.ShadhinGpEventCallback>",
+            "sugared_genericSig": "<Self where Self : Shadhin_Gp.ShadhinGpEventCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Shadhin_Gp0aB13EventCallbackP",
+        "mangledName": "$s10Shadhin_Gp0aB13EventCallbackP",
+        "moduleName": "Shadhin_Gp",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShadhinGpAnalyticsEvent",
+        "printedName": "ShadhinGpAnalyticsEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "trackItemClick",
+            "printedName": "trackItemClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(title: Swift.String, contentId: Swift.String, contentType: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO14trackItemClickyACSS_S2StcACmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO14trackItemClickyACSS_S2StcACmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "patchItemClick",
+            "printedName": "patchItemClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(title: Swift.String, contentId: Swift.String, contentType: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO14patchItemClickyACSS_S2StcACmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO14patchItemClickyACSS_S2StcACmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "shortsItemClick",
+            "printedName": "shortsItemClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(title: Swift.String, contentId: Swift.String, contentType: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO15shortsItemClickyACSS_S2StcACmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO15shortsItemClickyACSS_S2StcACmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "playPauseMusicClick",
+            "printedName": "playPauseMusicClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.Bool, Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(isPlaying: Swift.Bool, title: Swift.String, contentId: Swift.String, contentType: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO19playPauseMusicClickyACSb_S3StcACmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO19playPauseMusicClickyACSb_S3StcACmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "previousMusicClick",
+            "printedName": "previousMusicClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpAnalyticsEvent",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO18previousMusicClickyA2CmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO18previousMusicClickyA2CmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "nextMusicClick",
+            "printedName": "nextMusicClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpAnalyticsEvent",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO14nextMusicClickyA2CmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO14nextMusicClickyA2CmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "sliderDidClick",
+            "printedName": "sliderDidClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpAnalyticsEvent",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO14sliderDidClickyA2CmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO14sliderDidClickyA2CmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "logoClick",
+            "printedName": "logoClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpAnalyticsEvent",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO9logoClickyA2CmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO9logoClickyA2CmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "exploreMoreClick",
+            "printedName": "exploreMoreClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShadhinGpAnalyticsEvent",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO16exploreMoreClickyA2CmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO16exploreMoreClickyA2CmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "shadhinVmaxEvent",
+            "printedName": "shadhinVmaxEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> ([Swift.String : Any]) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(payload: [Swift.String : Any])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO011shadhinVmaxD0yACSDySSypG_tcACmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO011shadhinVmaxD0yACSDySSypG_tcACmF",
+            "moduleName": "Shadhin_Gp"
+          },
+          {
+            "kind": "Var",
+            "name": "shareClick",
+            "printedName": "shareClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(rcCode: Swift.String, title: Swift.String, imageUrl: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinGpAnalyticsEvent",
+                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
+                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO10shareClickyACSS_S2StcACmF",
+            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO10shareClickyACSS_S2StcACmF",
+            "moduleName": "Shadhin_Gp"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO",
+        "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO",
+        "moduleName": "Shadhin_Gp",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -130657,702 +132084,6 @@
         "moduleName": "Shadhin_Gp",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ShadhinGpEventCallback",
-        "printedName": "ShadhinGpEventCallback",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onEvent",
-            "printedName": "onEvent(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ShadhinGpAnalyticsEvent",
-                "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_Gp0aB13EventCallbackP02onC0yyAA0ab9AnalyticsC0OF",
-            "mangledName": "$s10Shadhin_Gp0aB13EventCallbackP02onC0yyAA0ab9AnalyticsC0OF",
-            "moduleName": "Shadhin_Gp",
-            "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_Gp.ShadhinGpEventCallback>",
-            "sugared_genericSig": "<Self where Self : Shadhin_Gp.ShadhinGpEventCallback>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:10Shadhin_Gp0aB13EventCallbackP",
-        "mangledName": "$s10Shadhin_Gp0aB13EventCallbackP",
-        "moduleName": "Shadhin_Gp",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ShadhinGpAnalyticsEvent",
-        "printedName": "ShadhinGpAnalyticsEvent",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "trackItemClick",
-            "printedName": "trackItemClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(title: Swift.String, contentId: Swift.String, contentType: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO14trackItemClickyACSS_S2StcACmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO14trackItemClickyACSS_S2StcACmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "patchItemClick",
-            "printedName": "patchItemClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(title: Swift.String, contentId: Swift.String, contentType: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO14patchItemClickyACSS_S2StcACmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO14patchItemClickyACSS_S2StcACmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "shortsItemClick",
-            "printedName": "shortsItemClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(title: Swift.String, contentId: Swift.String, contentType: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO15shortsItemClickyACSS_S2StcACmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO15shortsItemClickyACSS_S2StcACmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "playPauseMusicClick",
-            "printedName": "playPauseMusicClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.Bool, Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(isPlaying: Swift.Bool, title: Swift.String, contentId: Swift.String, contentType: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO19playPauseMusicClickyACSb_S3StcACmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO19playPauseMusicClickyACSb_S3StcACmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "previousMusicClick",
-            "printedName": "previousMusicClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ShadhinGpAnalyticsEvent",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO18previousMusicClickyA2CmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO18previousMusicClickyA2CmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "nextMusicClick",
-            "printedName": "nextMusicClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ShadhinGpAnalyticsEvent",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO14nextMusicClickyA2CmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO14nextMusicClickyA2CmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "sliderDidClick",
-            "printedName": "sliderDidClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ShadhinGpAnalyticsEvent",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO14sliderDidClickyA2CmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO14sliderDidClickyA2CmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "logoClick",
-            "printedName": "logoClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ShadhinGpAnalyticsEvent",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO9logoClickyA2CmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO9logoClickyA2CmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "exploreMoreClick",
-            "printedName": "exploreMoreClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ShadhinGpAnalyticsEvent",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO16exploreMoreClickyA2CmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO16exploreMoreClickyA2CmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "shadhinVmaxEvent",
-            "printedName": "shadhinVmaxEvent",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> ([Swift.String : Any]) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "([Swift.String : Any]) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(payload: [Swift.String : Any])",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Any]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "ProtocolComposition",
-                                "printedName": "Any"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO011shadhinVmaxD0yACSDySSypG_tcACmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO011shadhinVmaxD0yACSDySSypG_tcACmF",
-            "moduleName": "Shadhin_Gp"
-          },
-          {
-            "kind": "Var",
-            "name": "shareClick",
-            "printedName": "shareClick",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Shadhin_Gp.ShadhinGpAnalyticsEvent.Type) -> (Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String, Swift.String) -> Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(rcCode: Swift.String, title: Swift.String, imageUrl: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ShadhinGpAnalyticsEvent",
-                        "printedName": "Shadhin_Gp.ShadhinGpAnalyticsEvent",
-                        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO10shareClickyACSS_S2StcACmF",
-            "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO10shareClickyACSS_S2StcACmF",
-            "moduleName": "Shadhin_Gp"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10Shadhin_Gp0aB14AnalyticsEventO",
-        "mangledName": "$s10Shadhin_Gp0aB14AnalyticsEventO",
-        "moduleName": "Shadhin_Gp",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -172511,7 +173242,7 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGP.swift",
       "kind": "BooleanLiteral",
-      "offset": 711,
+      "offset": 783,
       "length": 5,
       "value": "false"
     },
@@ -176711,28 +177442,28 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MusicPlayerV3\/MusicPlayerV3.swift",
       "kind": "IntegerLiteral",
-      "offset": 23119,
+      "offset": 23162,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MusicPlayerV3\/MusicPlayerV3.swift",
       "kind": "BooleanLiteral",
-      "offset": 37423,
+      "offset": 37473,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MusicPlayerV3\/MusicPlayerV3.swift",
       "kind": "StringLiteral",
-      "offset": 61441,
+      "offset": 61491,
       "length": 18,
       "value": "\"ShouldMuteTeaser\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MusicPlayerV3\/MusicPlayerV3.swift",
       "kind": "StringLiteral",
-      "offset": 61548,
+      "offset": 61598,
       "length": 20,
       "value": "\"GPMusicItemChanged\""
     },
@@ -177537,7 +178268,7 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/PodcastNewDesign\/PodcastViewControllerVersionTwo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3560,
+      "offset": 3565,
       "length": 5,
       "value": "false"
     },
@@ -178215,99 +178946,64 @@
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
-      "kind": "FloatLiteral",
-      "offset": 240,
-      "length": 4,
-      "value": "0.00"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
-      "kind": "FloatLiteral",
-      "offset": 253,
-      "length": 4,
-      "value": "0.69"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
-      "kind": "FloatLiteral",
-      "offset": 265,
-      "length": 4,
-      "value": "1.00"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
-      "kind": "FloatLiteral",
-      "offset": 278,
-      "length": 4,
-      "value": "1.00"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "IntegerLiteral",
-      "offset": 325,
+      "offset": 241,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 251,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "IntegerLiteral",
-      "offset": 379,
+      "offset": 295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "FloatLiteral",
-      "offset": 389,
+      "offset": 305,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "FloatLiteral",
-      "offset": 433,
+      "offset": 349,
       "length": 5,
       "value": "0.886"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "FloatLiteral",
-      "offset": 447,
+      "offset": 363,
       "length": 5,
       "value": "0.024"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "FloatLiteral",
-      "offset": 460,
+      "offset": 376,
       "length": 5,
       "value": "0.071"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "IntegerLiteral",
-      "offset": 474,
+      "offset": 390,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
       "kind": "IntegerLiteral",
-      "offset": 577,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIColor++.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1207,
+      "offset": 1250,
       "length": 1,
       "value": "0"
     },
@@ -183508,70 +184204,70 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2039,
+      "offset": 2134,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2427,
+      "offset": 2522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2677,
+      "offset": 2772,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 28197,
+      "offset": 29455,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 28210,
+      "offset": 29468,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 28342,
+      "offset": 29600,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 28346,
+      "offset": 29604,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 28387,
+      "offset": 29645,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 28391,
+      "offset": 29649,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 28394,
+      "offset": 29652,
       "length": 2,
       "value": "21"
     },
@@ -196050,6 +196746,55 @@
       "value": "\"Artist\""
     },
     {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIFont++.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 12,
+      "value": "\"Inter-Bold\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIFont++.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 14,
+      "value": "\"Inter-Medium\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIFont++.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 15,
+      "value": "\"Inter-Regular\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIFont++.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 19,
+      "value": "\"CircularStd-Black\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIFont++.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 18,
+      "value": "\"CircularStd-Bold\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIFont++.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 18,
+      "value": "\"CircularStd-Book\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Combine\/Utiles\/UIFont++.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 20,
+      "value": "\"CircularStd-Medium\""
+    },
+    {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/ModelObj\/PodcastDetailsObj.swift",
       "kind": "StringLiteral",
       "offset": 936,
@@ -196468,6 +197213,118 @@
       "offset": 598,
       "length": 14,
       "value": "\"reverseTrxId\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 26,
+      "value": "\"vmax_sdk_adspace_request\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 25,
+      "value": "\"vmax_sdk_adspace_failed\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1190,
+      "length": 26,
+      "value": "\"vmax_sdk_adspace_success\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1258,
+      "length": 23,
+      "value": "\"vmax_sdk_init_success\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1324,
+      "length": 23,
+      "value": "\"vmax_sdk_init_started\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
+      "length": 22,
+      "value": "\"vmax_sdk_init_failed\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 13,
+      "value": "\"ad_requests\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1503,
+      "length": 10,
+      "value": "\"ad_ready\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1552,
+      "length": 16,
+      "value": "\"ad_load_failed\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1607,
+      "length": 11,
+      "value": "\"ad_render\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1657,
+      "length": 16,
+      "value": "\"ad_impressions\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1712,
+      "length": 11,
+      "value": "\"ad_clicks\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1762,
+      "length": 12,
+      "value": "\"ad_refresh\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 1813,
+      "length": 21,
+      "value": "\"ad_request_complete\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 9601,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/ShadhinGpEventCallback.swift",
+      "kind": "StringLiteral",
+      "offset": 9627,
+      "length": 4,
+      "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Leaderboard\/PrizeResponse.swift",
@@ -202341,118 +203198,6 @@
       "offset": 201,
       "length": 164,
       "value": "[(\"PTH0007\", \"4928e4d0\"), (\"PTH0011\", \"1dd32241\"), (\"PTH0026\", \"f214e121\"), (\"PTH0032\", \"ad063de8\"), (\"PTH0029\", \"3fff9713\"), (\"PTH0042\", \"8949b8f1\")]"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3157,
-      "length": 26,
-      "value": "\"vmax_sdk_adspace_request\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3222,
-      "length": 25,
-      "value": "\"vmax_sdk_adspace_failed\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3286,
-      "length": 26,
-      "value": "\"vmax_sdk_adspace_success\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3354,
-      "length": 23,
-      "value": "\"vmax_sdk_init_success\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3420,
-      "length": 23,
-      "value": "\"vmax_sdk_init_started\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3485,
-      "length": 22,
-      "value": "\"vmax_sdk_init_failed\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3547,
-      "length": 13,
-      "value": "\"ad_requests\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3599,
-      "length": 10,
-      "value": "\"ad_ready\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3648,
-      "length": 16,
-      "value": "\"ad_load_failed\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3703,
-      "length": 11,
-      "value": "\"ad_render\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3753,
-      "length": 16,
-      "value": "\"ad_impressions\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3808,
-      "length": 11,
-      "value": "\"ad_clicks\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3858,
-      "length": 12,
-      "value": "\"ad_refresh\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3909,
-      "length": 21,
-      "value": "\"ad_request_complete\""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 11697,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
-      "kind": "StringLiteral",
-      "offset": 11723,
-      "length": 4,
-      "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/BL+BkashPayment\/BLPaymentRequestResponse.swift",

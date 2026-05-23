@@ -70,7 +70,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		gSdw2aU2VWIX4QSP1qKyqrIAIxI=
+		FcW53ma2DaOj3Dnoq8h2layisSg=
 		</data>
 		<key>AudioBookDetailsVC.nib</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>BillboardSub.nib</key>
 		<data>
-		jqAopU8o1YjzTToaP6IcWkOo4SI=
+		cb/iUBCLnbsrV1jE0d/82ZQlC3M=
 		</data>
 		<key>BookDetailsHeaderCell.nib</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>Discover.storyboardc/BQ9-AR-991-view-Jk0-d0-4wA.nib</key>
 		<data>
-		eLtmsOPq+V7Oke8DBa1ChbIkXYY=
+		kHeZkhdHAhc22jb8BkWGjhN911k=
 		</data>
 		<key>Discover.storyboardc/DiscoverMusicDetailsVC.nib</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>Discover.storyboardc/IUA-zA-SM6-view-b6h-Vm-wzr.nib</key>
 		<data>
-		98ShnaN5m1XKpM401KSI3OOJ5bY=
+		UPk561FEu+6v7w1Ykjp02zzjIvM=
 		</data>
 		<key>Discover.storyboardc/Info.plist</key>
 		<data>
@@ -274,23 +274,23 @@
 		</data>
 		<key>Discover.storyboardc/UINavigationController-Ylz-9O-djO.nib</key>
 		<data>
-		Hj3LHkbnoV9Nhtazrlb+C2yUbbw=
+		PJHXfdqR4LOuMOURaebgN9DPAXc=
 		</data>
 		<key>Discover.storyboardc/c90-k4-qM0-view-E1w-2n-uQB.nib</key>
 		<data>
-		o76jEJp2xHoweHqXyzC9d36tMCc=
+		SbtSrfebP5bW9MrNp/G0jZFQQyo=
 		</data>
 		<key>Discover.storyboardc/fdo-Su-Kma-view-ed5-kO-GqE.nib</key>
 		<data>
-		ZFgsTY4MeChYSnAW1paTIj79elg=
+		MzJjbXlpDnota91DPaLYvemCXGI=
 		</data>
 		<key>Discover.storyboardc/g91-EL-JCe-view-HsM-hm-V7P.nib</key>
 		<data>
-		KdtpX7wWsgyAN3nS7xUQodZm0O4=
+		aO+gr/YTk22eX6dne7oS1jPjZJs=
 		</data>
 		<key>Discover.storyboardc/mEM-Ec-tXE-view-YCm-UU-hgp.nib</key>
 		<data>
-		BzyWe+xWkKeLA6SwpMLmKEE4nsU=
+		SsUVKP8UYDtIGnlUNWBJds+UGus=
 		</data>
 		<key>DiscoverBillboardCell.nib</key>
 		<data>
@@ -418,11 +418,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Lq7wTJdzBopIecz6BRtCvIBWSSo=
+		WWax0IO9r0PbOMGp/hW7zJ3ZIE4=
 		</data>
 		<key>InfoRichPromoCard.nib</key>
 		<data>
 		jCGGPyN2xgkIT4drFGoTIXDuGwM=
+		</data>
+		<key>Inter-Bold.ttf</key>
+		<data>
+		lGHnwIMTfCq+bRmPeE+w00GlJ6E=
+		</data>
+		<key>Inter-Medium.ttf</key>
+		<data>
+		wdJdjBCttFqXDnHDh7vWOA8QmS0=
+		</data>
+		<key>Inter-Regular.ttf</key>
+		<data>
+		bjQw+QaktCtLY/2PM+SYpD2fjYQ=
 		</data>
 		<key>LandscapeCell.nib</key>
 		<data>
@@ -462,11 +474,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1vcfe+m1oPF8mfsZwX+LPpdJTJE=
+		kHWvyEytRD+nTlVmoPacF48xcZ0=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YPvZWvFJkw3zowS1ZEnF+tGuPk4=
+		cWmLbP2fW7FudXWAhsvyOtqJoC4=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -474,19 +486,19 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YPvZWvFJkw3zowS1ZEnF+tGuPk4=
+		cWmLbP2fW7FudXWAhsvyOtqJoC4=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		r4DuL28rEYdoOr7MUP+Nwn0gJ6o=
+		P8ExP4plPPJqYThJiaL8IXg7TAs=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1vcfe+m1oPF8mfsZwX+LPpdJTJE=
+		kHWvyEytRD+nTlVmoPacF48xcZ0=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iZpTywyYbY/3U6KTTJgOjY0I6HI=
+		MC+fk3SjFCNhTbR6mXWNpY1aoDg=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -494,11 +506,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iZpTywyYbY/3U6KTTJgOjY0I6HI=
+		MC+fk3SjFCNhTbR6mXWNpY1aoDg=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FdQzCBNZIDqLhNbhVKGphylI4rM=
+		uo0gntlzpatCsb4TpaYVX3jTNr0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -554,7 +566,7 @@
 		</data>
 		<key>MusicPlayerV3.nib</key>
 		<data>
-		Luunwt+LI/7EB8116cYLJqv9lpg=
+		mLroHz7+Q5idRqwhPshTZIPiTH8=
 		</data>
 		<key>MusicPlayerV4.nib</key>
 		<data>
@@ -566,7 +578,7 @@
 		</data>
 		<key>MyMusic.storyboardc/2mo-NK-SC8-view-EkH-6K-NjW.nib</key>
 		<data>
-		fl8wSNp8BDnjGwskgk1gjKBg21A=
+		Ioa20dE+U2Ekswfu66rOjguMeJU=
 		</data>
 		<key>MyMusic.storyboardc/B4g-Eo-e7p-view-xHc-lL-Cey.nib</key>
 		<data>
@@ -671,22 +683,6 @@
 		<key>OpenAppPopupVC.nib</key>
 		<data>
 		xbBYSu+vLcIuQt9pWnXYfgzUVLM=
-		</data>
-		<key>OpenSans-Bold.ttf</key>
-		<data>
-		HjcE7ki1/35YJIjq2HsFJJ8U3Bw=
-		</data>
-		<key>OpenSans-Light.ttf</key>
-		<data>
-		vw0TO2KCWeygEEnTD6YxYJTQC88=
-		</data>
-		<key>OpenSans-Regular.ttf</key>
-		<data>
-		ur6NzpOj5ItsPHlyCgwEjojdH+c=
-		</data>
-		<key>OpenSans-SemiBold.ttf</key>
-		<data>
-		4lb4ORcY72HyU9+06Vu+s8WFevw=
 		</data>
 		<key>PatchDescTopWithRecPortDescBelow.nib</key>
 		<data>
@@ -868,18 +864,6 @@
 		<data>
 		k5Zw7+4VuUQzY5NFptNQOjwkMTI=
 		</data>
-		<key>Poppins-Medium.ttf</key>
-		<data>
-		crZoyxY5xrBYjG//oa6alnQJ6K4=
-		</data>
-		<key>Poppins-Regular.ttf</key>
-		<data>
-		pO9IwXR5I2/qIZe5pov3xhY+A4g=
-		</data>
-		<key>Poppins-SemiBold.ttf</key>
-		<data>
-		4aAaJA+0SXl6wIo3SQ1ZthoFnm0=
-		</data>
 		<key>PopularArtistCell.nib</key>
 		<data>
 		CL2FHVp0BsbK+DBltQtseAu2VGo=
@@ -907,14 +891,6 @@
 		<key>ProTitleCell.nib</key>
 		<data>
 		962J1aKs1NQYEKJHt+PGIGsETPk=
-		</data>
-		<key>Product Sans Light 300.ttf</key>
-		<data>
-		63sfXrTisVL0mWHq9BExRK8hlVM=
-		</data>
-		<key>Product Sans Regular.ttf</key>
-		<data>
-		Sb32wtw8oMdy2lvD0Q/12iO63uM=
 		</data>
 		<key>PurchasedTicketTC.nib</key>
 		<data>
@@ -1038,7 +1014,7 @@
 		</data>
 		<key>ShadhinMusicView.nib</key>
 		<data>
-		h0+5m/oatvnG/DCK15YVk7DVDLk=
+		fCCP39wEULfbx0gwXQVzPwkstGw=
 		</data>
 		<key>ShadhinRewindVC.nib</key>
 		<data>
@@ -1464,7 +1440,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LgWLzGSG8OmJH3f8TiEFdDlImYgJ6fst+P4uXvIx97c=
+			NH1RS4FEOuE3TLktedJ8szOiHeVdbqfQDaTDR9tU4xE=
 			</data>
 		</dict>
 		<key>AudioBookDetailsVC.nib</key>
@@ -1562,7 +1538,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KU9z3pyk20C61WXUmawhBgHxsSifGa+NOx3Omdz7gtI=
+			U+gpU5XzinGmSfaBaRhv/rNNzTluclpkYUSVFj+gVSU=
 			</data>
 		</dict>
 		<key>BookDetailsHeaderCell.nib</key>
@@ -1758,7 +1734,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			udhWDw2GhwIpabZmkI/PjqZXkW9Fd1xzXQqrqk5QpzQ=
+			2KuwI9L9cFdhwlxzevfJ+irBh7jtjQR3NrnWHrFAxv4=
 			</data>
 		</dict>
 		<key>Discover.storyboardc/DiscoverMusicDetailsVC.nib</key>
@@ -1786,7 +1762,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YeLr6x6IC3QWqKzgsCzGCLgXtUAmkoO5Co/GPT9/tr0=
+			MJKFz0vy9ml3bNK57aZ4m1u8pIn7zvmxaN20GydWDzo=
 			</data>
 		</dict>
 		<key>Discover.storyboardc/Info.plist</key>
@@ -1821,35 +1797,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+v9Q7ja26sdbVGj+IeC5bR2g/wJC6EBXNMzFswiK0A=
+			wtfbmoreEaWQaVfwmBQ+7on+k8fl/CmefF/NNRWpe8g=
 			</data>
 		</dict>
 		<key>Discover.storyboardc/c90-k4-qM0-view-E1w-2n-uQB.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/v+x56v97oj4O7YktOGYKvyjNJLopK0wi3H06zCG2a4=
+			l7iDQaBK4kxlgbGW3Xth5PMPv1wX9VkQovma+DyEXD8=
 			</data>
 		</dict>
 		<key>Discover.storyboardc/fdo-Su-Kma-view-ed5-kO-GqE.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y5d3jNaQrMnWJfmswTA2nsHGyNNlCrIPxcB845Z8sWg=
+			SQvRxF8gJqxWXIHQDJRuNyDdo/JON8HyFt1tHounB0I=
 			</data>
 		</dict>
 		<key>Discover.storyboardc/g91-EL-JCe-view-HsM-hm-V7P.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WJSAG5oVQq5zU22JBmG0rl/lWSwgTCcvGFx6OgqqtXc=
+			uV3YvbZV+mUvt9V3qIkRsLTVqGqJzlZw2lxXAnc6fdc=
 			</data>
 		</dict>
 		<key>Discover.storyboardc/mEM-Ec-tXE-view-YCm-UU-hgp.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XOYo1/0Hq1MS4yeVfNTGgwzvS6pFNWnCZpetHn6sL8Y=
+			JExnp3dR9i/drt2pp9IHpnRIDrZZk+9REMkYFrfTmEs=
 			</data>
 		</dict>
 		<key>DiscoverBillboardCell.nib</key>
@@ -2076,6 +2052,27 @@
 			6++GVEDfnioHZru367gR7/zMRsV521i0l4/+VXj25gs=
 			</data>
 		</dict>
+		<key>Inter-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KIMWCZseCkekcW0VkJgAXu98AGaSHzTjIAOT29sBlH8=
+			</data>
+		</dict>
+		<key>Inter-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l62Ab1JuQVRtRjZbs6OTFF91t7FWiRPbdFSa2LjbqHI=
+			</data>
+		</dict>
+		<key>Inter-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QNaS/OGI5EceKzy6k3vpZ4ePYxrT67vc1YdofH6+DII=
+			</data>
+		</dict>
 		<key>LandscapeCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -2143,14 +2140,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wsih0j80+2JiM7QViTCRwyn5iQt1e+fr+cZMykWTOtg=
+			uHnO4ATKsfOMeKusJbBgXFLDq0jjHZg8MMnjtQkZqKE=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t6vsPTJdmNjV1odQhd6LqgC/ZQQQngOWDE4qAI9LE18=
+			KrVRL4V+Kcpv0rZjnkDJuzK5X/0gFbhKX614FQAKMGk=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2164,28 +2161,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t6vsPTJdmNjV1odQhd6LqgC/ZQQQngOWDE4qAI9LE18=
+			KrVRL4V+Kcpv0rZjnkDJuzK5X/0gFbhKX614FQAKMGk=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/69yh0eYjTSjJifpoOVtdbasJwxi/ylHEn+pajkKtoM=
+			/yjIp67qINr6C7p2+fRWBTyQQ+QljgBVuxBQeidYwrI=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wsih0j80+2JiM7QViTCRwyn5iQt1e+fr+cZMykWTOtg=
+			uHnO4ATKsfOMeKusJbBgXFLDq0jjHZg8MMnjtQkZqKE=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DmZWmZs7BLeOqF3Bga/iraZ89EH22L0yHzEy6PFdO9Y=
+			guNA4Qsfnv+HeTGvygr77fJvAAZotYilEnfh3DOWPi0=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2199,14 +2196,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DmZWmZs7BLeOqF3Bga/iraZ89EH22L0yHzEy6PFdO9Y=
+			guNA4Qsfnv+HeTGvygr77fJvAAZotYilEnfh3DOWPi0=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uEcfDpNRbqLPXf9Th7suwOG7DbL5NA26QKsawZXu28c=
+			QK2EA+P2SP1sK7cnZNvnGIUA6AlHlED2O+Q39DYY2+A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2304,7 +2301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sz1cMLM29x3tCbV/zxbZlugYeb5nCwVyPWUyCajEJdk=
+			8bMhOj54M9VNgtXT7wMN8Rbms4mMxwct0oqfZ8/9IeQ=
 			</data>
 		</dict>
 		<key>MusicPlayerV4.nib</key>
@@ -2325,7 +2322,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1jlCR831YCs6QdKIWM2e+9XBzQyqJDxEe84TEKMQ6l8=
+			+qKEUCGXrAHtz6s32k7Ea4wLpX+kGTIeKUn/8YDTS34=
 			</data>
 		</dict>
 		<key>MyMusic.storyboardc/B4g-Eo-e7p-view-xHc-lL-Cey.nib</key>
@@ -2508,34 +2505,6 @@
 			<key>hash2</key>
 			<data>
 			gIMTyH4fYPiH8xIksKi5UKUIjjIWXZO7VAnki8bUVyQ=
-			</data>
-		</dict>
-		<key>OpenSans-Bold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			95FqNzd+OFJ9QwYwPP6JtlO0mwprCwXGt1k/erAkjag=
-			</data>
-		</dict>
-		<key>OpenSans-Light.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gNVRPiGvUu6sbliTrUfD99dLJGSYetZp0oaQ1F7q+iM=
-			</data>
-		</dict>
-		<key>OpenSans-Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A3I27Uv1ioX2cHTBZdMIJg/WvgHIbX30556hbrJz+MU=
-			</data>
-		</dict>
-		<key>OpenSans-SemiBold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Xo2eGokIPNGwhJmT/i86zJqjO39Dn36GFocvaJfzBoQ=
 			</data>
 		</dict>
 		<key>PatchDescTopWithRecPortDescBelow.nib</key>
@@ -2853,27 +2822,6 @@
 			jSauJTQS9O1khSzCMxnpKTjqfwNlXl42ETgbhDmS0kg=
 			</data>
 		</dict>
-		<key>Poppins-Medium.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L392ozcm/GKBNtmgBK93QdXhZLZ7ThNT0GYMHH+Eo1o=
-			</data>
-		</dict>
-		<key>Poppins-Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V337Z4uPwb2o7w+r10YRZ1ATrgiuOwBFuK3LHG+gHrk=
-			</data>
-		</dict>
-		<key>Poppins-SemiBold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PQgaHnJzotj/ZjIYenNiTmOfeFhqFMInonBnwra+g1M=
-			</data>
-		</dict>
 		<key>PopularArtistCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -2921,20 +2869,6 @@
 			<key>hash2</key>
 			<data>
 			VsHANac3iZ2zzxKeqCJ2jmIML5C460hDGLTPRAvaI1M=
-			</data>
-		</dict>
-		<key>Product Sans Light 300.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Yi9DdyEJwkbIDstpOHY8XEOWLk/TmC7JqZ1GLYrNysI=
-			</data>
-		</dict>
-		<key>Product Sans Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			s0y7cddbhOtJJfUeBQJJ9l+z41UBM6ugpMFhxoIK7II=
 			</data>
 		</dict>
 		<key>PurchasedTicketTC.nib</key>
@@ -3151,7 +3085,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w7r4UHGXkNdXk2nqa6ls+nk105cq0k3VlnDbxx6fYDI=
+			9yLrOLfYSC/VRdqlBU8O+jkmUT9V/4c/CZWFbxkMlIA=
 			</data>
 		</dict>
 		<key>ShadhinRewindVC.nib</key>

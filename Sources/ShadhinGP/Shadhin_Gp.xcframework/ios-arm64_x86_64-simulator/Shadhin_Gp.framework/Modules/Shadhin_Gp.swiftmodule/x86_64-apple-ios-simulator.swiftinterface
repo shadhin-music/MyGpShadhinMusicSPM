@@ -42,7 +42,9 @@ import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ShadhinGP : ObjectiveC.NSObject {
   public static let shared: Shadhin_Gp.ShadhinGP
   weak final public var eventDelegate: (any Shadhin_Gp.ShadhinGpEventCallback)?
+  weak final public var configDataSource: (any Shadhin_Gp.ShadhinGpConfigurationDataSource)?
   final public var isVmaxInitialized: Swift.Bool
+  final public func fontInit()
   @objc deinit
 }
 public protocol ConstraintDirectionalInsetTarget : Shadhin_Gp.ConstraintConstantTarget {
@@ -711,6 +713,27 @@ extension Swift.Collection {
 extension Shadhin_Gp.Disk {
   public static func save(_ value: UIKit.UIImage, to directory: Shadhin_Gp.Disk.Directory, as path: Swift.String) throws
   public static func retrieve(_ path: Swift.String, from directory: Shadhin_Gp.Disk.Directory, as type: UIKit.UIImage.Type) throws -> UIKit.UIImage
+}
+public protocol ShadhinGpConfigurationDataSource : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func shadhinGpFontName(for style: Shadhin_Gp.ShadhinGpFontStyle) -> Swift.String?
+  #endif
+}
+public enum ShadhinGpFontStyle {
+  case fontTitle
+  case fontSubtitle
+  case fontBody
+  public static func == (a: Shadhin_Gp.ShadhinGpFontStyle, b: Shadhin_Gp.ShadhinGpFontStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class ShadhinGpFontProvider {
+  public static let shared: Shadhin_Gp.ShadhinGpFontProvider
+  weak final public var dataSource: (any Shadhin_Gp.ShadhinGpConfigurationDataSource)?
+  final public func font(for style: Shadhin_Gp.ShadhinGpFontStyle, size: CoreFoundation.CGFloat) -> UIKit.UIFont
+  @objc deinit
 }
 public enum SignalRError : Swift.Error {
   case invalidState
@@ -5915,6 +5938,7 @@ public struct PatchItem : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public func registerFonts()
 public struct ReelsContent : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -5928,6 +5952,22 @@ public struct ReelsContent : Swift.Codable {
   #endif
   public func removeSocialCredentials(completion: @escaping (_ isSuccess: Swift.Bool) -> Swift.Void)
   @objc deinit
+}
+public protocol ShadhinGpEventCallback : AnyObject {
+  func onEvent(_ event: Shadhin_Gp.ShadhinGpAnalyticsEvent)
+}
+public enum ShadhinGpAnalyticsEvent {
+  case trackItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case patchItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case shortsItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case playPauseMusicClick(isPlaying: Swift.Bool, title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case previousMusicClick
+  case nextMusicClick
+  case sliderDidClick
+  case logoClick
+  case exploreMoreClick
+  case shadhinVmaxEvent(payload: [Swift.String : Any])
+  case shareClick(rcCode: Swift.String, title: Swift.String, imageUrl: Swift.String)
 }
 @objc @_hasMissingDesignatedInitializers public class TokenObj : ObjectiveC.NSObject, Swift.Codable {
   @objc deinit
@@ -6268,22 +6308,6 @@ extension UIKit.UILayoutGuide {
   @_Concurrency.MainActor @preconcurrency public var snp: Shadhin_Gp.ConstraintLayoutGuideDSL {
     get
   }
-}
-public protocol ShadhinGpEventCallback : AnyObject {
-  func onEvent(_ event: Shadhin_Gp.ShadhinGpAnalyticsEvent)
-}
-public enum ShadhinGpAnalyticsEvent {
-  case trackItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
-  case patchItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
-  case shortsItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
-  case playPauseMusicClick(isPlaying: Swift.Bool, title: Swift.String, contentId: Swift.String, contentType: Swift.String)
-  case previousMusicClick
-  case nextMusicClick
-  case sliderDidClick
-  case logoClick
-  case exploreMoreClick
-  case shadhinVmaxEvent(payload: [Swift.String : Any])
-  case shareClick(rcCode: Swift.String, title: Swift.String, imageUrl: Swift.String)
 }
 public struct SRRetryContext {
   public let failedAttemptsCount: Swift.Int
@@ -7190,6 +7214,8 @@ extension Shadhin_Gp.EKAttributes.Position : Swift.Hashable {}
 extension Shadhin_Gp.SMContentType : Swift.Equatable {}
 extension Shadhin_Gp.SMContentType : Swift.Hashable {}
 extension Shadhin_Gp.SMContentType : Swift.RawRepresentable {}
+extension Shadhin_Gp.ShadhinGpFontStyle : Swift.Equatable {}
+extension Shadhin_Gp.ShadhinGpFontStyle : Swift.Hashable {}
 extension Shadhin_Gp.CBC.Error : Swift.Equatable {}
 extension Shadhin_Gp.CBC.Error : Swift.Hashable {}
 extension Shadhin_Gp.Rabbit.Error : Swift.Equatable {}
