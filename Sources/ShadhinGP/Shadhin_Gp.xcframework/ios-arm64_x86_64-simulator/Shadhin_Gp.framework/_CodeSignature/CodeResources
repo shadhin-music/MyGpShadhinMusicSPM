@@ -66,11 +66,11 @@
 		</data>
 		<key>ArtsEntertainmentCell.nib</key>
 		<data>
-		hBKoT6cSF5DrE3yG3UirPt13jE4=
+		al55+knNv2rZqtGEdkRec+FRCRM=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		FcW53ma2DaOj3Dnoq8h2layisSg=
+		/p0An9u7nviYMLKpfQiKMryHU84=
 		</data>
 		<key>AudioBookDetailsVC.nib</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>BookHomeCell.nib</key>
 		<data>
-		8PeaCnCvpLjtnSYlm19YoUCtidY=
+		mM0VDwamQ0FburPXBZ9obe/eKPQ=
 		</data>
 		<key>BookSubCell.nib</key>
 		<data>
@@ -178,15 +178,15 @@
 		</data>
 		<key>CircularWithDescBelow.nib</key>
 		<data>
-		QknQgRfNMsYgCFEvXJLKpyQSbi0=
+		p/vygE6jlTIjllyFsfdty/U6xUI=
 		</data>
 		<key>CircularWithFavBtn.nib</key>
 		<data>
-		FBFn0g+Ii4B4ryVvyFGr6SGdC0k=
+		TTEcasBhC1fyus1Ao/HuWu3Fx8o=
 		</data>
 		<key>CircularWithFavBtnSub.nib</key>
 		<data>
-		fWkgQu77ZLe40kp/94o9S5NpWeU=
+		BLiSmlypxEXmPZf7Vdd0fxbwQzo=
 		</data>
 		<key>CollapsibleHeaderCell.nib</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>ContinueListeningBookCell.nib</key>
 		<data>
-		vcjzq/Xc2YmpwU66pin1j3JGeaY=
+		+E7JJIfaPUN/rCCseKRS4Wy2w0g=
 		</data>
 		<key>ContinueListeningEffectViewCell.nib</key>
 		<data>
@@ -310,7 +310,7 @@
 		</data>
 		<key>DownloadsHomeCell.nib</key>
 		<data>
-		GFm8FKTVWtpq+umRSTXIml+L7rE=
+		i2L0roynzRt5z3FAWHMM3ace1lo=
 		</data>
 		<key>DropDownCell.nib</key>
 		<data>
@@ -474,7 +474,7 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kHWvyEytRD+nTlVmoPacF48xcZ0=
+		/fWG3SprQ3OsWf6xbuL5Z6i96MI=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -490,11 +490,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		P8ExP4plPPJqYThJiaL8IXg7TAs=
+		5v42wCAGTjBMRDP92GJkjM1vqpk=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kHWvyEytRD+nTlVmoPacF48xcZ0=
+		/fWG3SprQ3OsWf6xbuL5Z6i96MI=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -510,7 +510,7 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uo0gntlzpatCsb4TpaYVX3jTNr0=
+		nM3KmzYbGvCUgidOTWJma2akWFw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -874,7 +874,7 @@
 		</data>
 		<key>PopularPlaylistCell.nib</key>
 		<data>
-		qVFXmzboHBAR/4+BN5Ryjw4I900=
+		o82Pk8BuydMk6KTSvWotcZPR2wQ=
 		</data>
 		<key>PortraitCell.nib</key>
 		<data>
@@ -906,7 +906,7 @@
 		</data>
 		<key>RadioV3Cell.nib</key>
 		<data>
-		UXiXJ218ys7ZM54K7AzpqLsaHfQ=
+		Ris+vSmbW6cRuSWIx952bMxaOJs=
 		</data>
 		<key>RankCell.nib</key>
 		<data>
@@ -938,11 +938,11 @@
 		</data>
 		<key>RecentlyPlayerCell.nib</key>
 		<data>
-		7wGmA67aBsDLrlIdwJ9GABsZOmY=
+		RyTmwEEvg8F7lAjUOv4CUn8dpjg=
 		</data>
 		<key>RecommendedBooksCell.nib</key>
 		<data>
-		LsPvs0mFCcedj8zqE/3tsZAAlHw=
+		GMtBvPfuJbIBQIXZ3KKyP/VRvKo=
 		</data>
 		<key>RepliesCell.nib</key>
 		<data>
@@ -1014,7 +1014,7 @@
 		</data>
 		<key>ShadhinMusicView.nib</key>
 		<data>
-		fCCP39wEULfbx0gwXQVzPwkstGw=
+		F2qBgW9Mrp1h0kb52z7Dgnk9KE8=
 		</data>
 		<key>ShadhinRewindVC.nib</key>
 		<data>
@@ -1034,11 +1034,11 @@
 		</data>
 		<key>SingleImageItemCell.nib</key>
 		<data>
-		3QIrQzwvSO13g2RLNEBW4asY7wk=
+		9sIEkJ284ZX6nvXjScbNZ/y6UHc=
 		</data>
 		<key>SingleItemWithSeeAll.nib</key>
 		<data>
-		eM+o4GHf3YTCfLEk/wbEWSDhbNU=
+		a1fGxBAuXZXCrBEgDkUuzTTpPU8=
 		</data>
 		<key>SleepTimerCustomVC.nib</key>
 		<data>
@@ -1054,11 +1054,11 @@
 		</data>
 		<key>SqrPagerWithDescBelow.nib</key>
 		<data>
-		Kr+/DMJKJI9P7SkDn1D2pqE6ouo=
+		QJzl2g5HmyQtHE8LWIb69ijxYkA=
 		</data>
 		<key>SqrWithDescBelow.nib</key>
 		<data>
-		K1rH/zeb8ESCJvc1gZd6i/EwxPU=
+		TdmDyhIRw0aJO5q4tM2DGIWtHtw=
 		</data>
 		<key>SquareBigCell.nib</key>
 		<data>
@@ -1074,7 +1074,7 @@
 		</data>
 		<key>SquareV3Cell.nib</key>
 		<data>
-		MCjsJ3TYPEJgjVe16se4EVvZY2Q=
+		6QU1avPmMSxor1xrpQLZlcaoH1c=
 		</data>
 		<key>StopWelcomeTunePopupVC.nib</key>
 		<data>
@@ -1142,7 +1142,7 @@
 		</data>
 		<key>TomakeChaiCell.nib</key>
 		<data>
-		y1+yseEp8icM+GgQIh1wM3QLq9U=
+		vANQ26EWVrvOL74bP9TBpdu5EE0=
 		</data>
 		<key>Top3RankCell.nib</key>
 		<data>
@@ -1182,7 +1182,7 @@
 		</data>
 		<key>TwoRowRecDescBelow.nib</key>
 		<data>
-		Lje2kl8lI62SID+fJWbOcnbNTmM=
+		XzkwxgRnbReYMTtNwwSTpT3PntM=
 		</data>
 		<key>TwoRowRecDescBelowSub.nib</key>
 		<data>
@@ -1190,7 +1190,7 @@
 		</data>
 		<key>TwoRowSqr.nib</key>
 		<data>
-		oBPuP4NbGETA07ZNT5AAIx6y+s4=
+		jUNDXLJ3VLV0T6lbPi5TbUPWnQ0=
 		</data>
 		<key>TwoRowSqrSub.nib</key>
 		<data>
@@ -1198,11 +1198,11 @@
 		</data>
 		<key>TwoRowSqrWithDescBelow.nib</key>
 		<data>
-		B3Ti1cMymBNccqxnXGpaPpQzrdg=
+		bW8ZujbY/5Mgl9W3c2L1Bx5NoPY=
 		</data>
 		<key>TwoRowSqrWithDescLeft.nib</key>
 		<data>
-		vvyA/QNbAJdUHg+yLR1lt6J9bJk=
+		Ud0BchlaTrJ7l+HGR7cpfIfaVGI=
 		</data>
 		<key>TwoRowSqrWithDescLeftSub.nib</key>
 		<data>
@@ -1294,7 +1294,7 @@
 		</data>
 		<key>YouMightLikeCell.nib</key>
 		<data>
-		sjI85pLyRpQ0fIFZK+OVb5LzAHk=
+		PEO/5fBoMUNCmCysF3NcrKb5GvY=
 		</data>
 		<key>YouMightLikeSubCell.nib</key>
 		<data>
@@ -1433,14 +1433,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5g0ShDX/TUPZNY5SPmGbp9/QsOUXtXA0Ki8U2OovRPk=
+			+hX7HlZmv/eXezCAcDIQAOfMLyihPA7bKplS899YCpQ=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NH1RS4FEOuE3TLktedJ8szOiHeVdbqfQDaTDR9tU4xE=
+			7JFekP8RoZwxcLnBYK8cfaVRJF6VgQpNvd2TrEHaEx0=
 			</data>
 		</dict>
 		<key>AudioBookDetailsVC.nib</key>
@@ -1552,7 +1552,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bA4Rnie+lTf81fWUJ7FFF/MNfhDY4Qj4ZExo598ZIb8=
+			2Lz6U3wvaiOqqkkYDyV1BSXaGGdAJ5h0vR0sl4rSPkI=
 			</data>
 		</dict>
 		<key>BookSubCell.nib</key>
@@ -1629,21 +1629,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2jBFqejud/Ki4YXOtPJADNKZGP17fQ5hm4Xsdx+CLkA=
+			bpyLIlCYM6GE2V+DQ81x/Lo0wNaZ4rJhdlXul/j9gxE=
 			</data>
 		</dict>
 		<key>CircularWithFavBtn.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hg+C8opnuE1ZKZfv6K5ZQ9j+3uXH3GL7JT4bUIq3k7Q=
+			BkSv40T1lX+FhMIW9+AEgmXI8tJQixIEFmwZrpzubCo=
 			</data>
 		</dict>
 		<key>CircularWithFavBtnSub.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vb/gHSj8Oe0xhEeOMKH3A0xlh+rpqCMRKpCbivjp0KU=
+			10fIe/ng1JQYrrE1gWuf6onZzaXMl3L/zFdHQ4aMnd4=
 			</data>
 		</dict>
 		<key>CollapsibleHeaderCell.nib</key>
@@ -1699,7 +1699,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c1D5VazRH4I2cGFTqernLcxRReOR2qLqVjM1IpdrYP4=
+			qpNweITd7BIOPMv0t3BlorCNCgCiZGR/TPMZN2inHKE=
 			</data>
 		</dict>
 		<key>ContinueListeningEffectViewCell.nib</key>
@@ -1860,7 +1860,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qqUQ7clvvy0G7z+WMz1V94hSX0YU3+X6Sni3ueYQ0GQ=
+			FRT9iUdMBslXIk+lfwKNsfBmnl4t8dAJZ3/fqKfRFBM=
 			</data>
 		</dict>
 		<key>DropDownCell.nib</key>
@@ -2140,7 +2140,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHnO4ATKsfOMeKusJbBgXFLDq0jjHZg8MMnjtQkZqKE=
+			CQqUvaJH4wt437Qqnn9a3g9JeShdHl7wJU/Er+Q0DFs=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -2168,14 +2168,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/yjIp67qINr6C7p2+fRWBTyQQ+QljgBVuxBQeidYwrI=
+			BTH9F+k4DCqFdPQWXNkS+qtxMS4YrUNp6UROmV3LkMQ=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHnO4ATKsfOMeKusJbBgXFLDq0jjHZg8MMnjtQkZqKE=
+			CQqUvaJH4wt437Qqnn9a3g9JeShdHl7wJU/Er+Q0DFs=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -2203,7 +2203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QK2EA+P2SP1sK7cnZNvnGIUA6AlHlED2O+Q39DYY2+A=
+			1eHpfkY3FT65Ug8ycHcy+PsPHZbobp4vqef/MHZ/g4c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2840,7 +2840,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0VQCMB9wuGpij6eR1fUZvdHvc8R661rl+612wfrGw10=
+			fVHp0Mi+p5VWqTN600MWds22DdJzGS38lA0YAAHfXks=
 			</data>
 		</dict>
 		<key>PortraitCell.nib</key>
@@ -2896,7 +2896,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k6dY6Pm0XbjbfZA0YH8UhWQFyHYzQw/uG0V1KPnBdAU=
+			XvBJ5JLU9g01Pmfslavet1PHIAhHM9lE9zyhrGAlnjQ=
 			</data>
 		</dict>
 		<key>RankCell.nib</key>
@@ -2952,14 +2952,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0wML+7mkUyON6tmlL7a7VPd4+sWs3a+K4DNcm5gP9Ew=
+			apQL1hZHMXY6JNbut9049swdc4GI2jp7YVcWgKhy6Fo=
 			</data>
 		</dict>
 		<key>RecommendedBooksCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dkx70/h8vn0q/mfqhTSyU14BlTq3Avi07mD1oUAtIYw=
+			Li4PvKSkYbG5WfDDuDG0+qu2fdlctuOTvDk0xHxZjB0=
 			</data>
 		</dict>
 		<key>RepliesCell.nib</key>
@@ -3085,7 +3085,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9yLrOLfYSC/VRdqlBU8O+jkmUT9V/4c/CZWFbxkMlIA=
+			zeEoK17RCfqqBaFknDXp0MwYnEZhMzW4bbXWGojVikE=
 			</data>
 		</dict>
 		<key>ShadhinRewindVC.nib</key>
@@ -3120,14 +3120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ekjuAKh06d2SOvZ1Y3knVB8KmwAN0NfPLXODdzyxQc=
+			TiR37yMU6qpwkQ4QoiRUfUH3vLsy8PtROz2MU1kUvz0=
 			</data>
 		</dict>
 		<key>SingleItemWithSeeAll.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wu/czebyFe4cqtVVHgqkZJRxwXzVSpjql9he0o2hxE0=
+			ZH5RYAme1gORWDqf0EjQtTXs5UPi+bYuersuu0o1thc=
 			</data>
 		</dict>
 		<key>SleepTimerCustomVC.nib</key>
@@ -3155,14 +3155,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+YsX5dqiOCr5GkeRiMTPHh0wfXHnHOiziuRaZsDYd3Q=
+			qIsP18E93vWHg2meK3QI/6yLm8sxGAnviIDus0wKr4k=
 			</data>
 		</dict>
 		<key>SqrWithDescBelow.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W3oIqOgA4MwNgfrg+iq/qMMhQ04JRleH0r4oZN6dZvk=
+			iLHKq4wb74/V+gqo+K+SRxKdTjXp7HAhJI2gL9L8eMI=
 			</data>
 		</dict>
 		<key>SquareBigCell.nib</key>
@@ -3190,7 +3190,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k0ggms/4VkG6Th73FJF4e450XYP4eOKRQ4H37bfaD6U=
+			6beobuvaUxLJ+o5VbZ9zAyyq6mY0PGKE6CexqzK1IgM=
 			</data>
 		</dict>
 		<key>StopWelcomeTunePopupVC.nib</key>
@@ -3309,7 +3309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vRC9gBxxmWMlVAhejx6QXuglE6s9U5XV3cL/tEOaSlQ=
+			vkNbG354dr0eW0EPTyOnS49nQUKmqwlQqqME3GsHQcw=
 			</data>
 		</dict>
 		<key>Top3RankCell.nib</key>
@@ -3379,7 +3379,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wHwHN5+woT5jiNjQQMG7k1Ruy0FcqxSz4rAAU/ebVwM=
+			Rn28wiTsfx+oRJx3jtE57NxDO7ih8RI/kDxQAeQocMY=
 			</data>
 		</dict>
 		<key>TwoRowRecDescBelowSub.nib</key>
@@ -3393,7 +3393,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q773Vqw41ExkwP9HgklIbjGFtorASsQ7AH+sEJYyq/Y=
+			flCSF25BKWRITuKz/n5fWdHfzYaRspOls0erBJrmXDQ=
 			</data>
 		</dict>
 		<key>TwoRowSqrSub.nib</key>
@@ -3407,14 +3407,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oz9dJfUDPRmrAng4Xmzj7EhIglsRcGyj71zzlmUA75Y=
+			4rsN+cxBnEsdvF5RpZeNQdeP3X8kLV0CDlXq4FW7968=
 			</data>
 		</dict>
 		<key>TwoRowSqrWithDescLeft.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WtmwTjh5tv3+0WQCYf6Jf/qDWhGP8W32AHe/M3UfCvA=
+			thR6qoOcDzxBuYVEZ+wu5dpdikeCuhQ91aoeVrq2GTE=
 			</data>
 		</dict>
 		<key>TwoRowSqrWithDescLeftSub.nib</key>
@@ -3575,7 +3575,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h7gU8jZQhS30wZbIIqAh+9FX3KpmapFJtpjQvMv+5TE=
+			LmqyQbpW6iT+cNNazcxsomw52o01Fn27z2zwBbtm5fY=
 			</data>
 		</dict>
 		<key>YouMightLikeSubCell.nib</key>
