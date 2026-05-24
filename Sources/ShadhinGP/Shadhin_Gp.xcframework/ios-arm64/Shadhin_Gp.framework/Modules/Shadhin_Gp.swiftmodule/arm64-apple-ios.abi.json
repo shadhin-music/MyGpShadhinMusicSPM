@@ -178520,14 +178520,14 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Extensions\/UIViewControllerV3++.swift",
       "kind": "BooleanLiteral",
-      "offset": 307,
+      "offset": 313,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Extensions\/UIViewControllerV3++.swift",
       "kind": "StringLiteral",
-      "offset": 343,
+      "offset": 349,
       "length": 2,
       "value": "\"\""
     },
@@ -178863,9 +178863,16 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/TabBar\/MainTabBar.swift",
       "kind": "BooleanLiteral",
-      "offset": 288,
+      "offset": 265,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/TabBar\/MainTabBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/Disk\/Sources\/Disk+Errors.swift",
