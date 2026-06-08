@@ -407,20 +407,9 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
-## 8. Push Notifications (FCM)
-
-Forward the FCM device token to the SDK after receiving it:
-
-```swift
-import Shadhin_Gp
-
-// In AppDelegate, after receiving FCM token:
-ShadhinCore.instance.defaults.fcmToken = fcmToken
-```
-
 ---
 
-## 9. Integration Flow Summary
+## 8. Integration Flow Summary
 
 | Step | Action | Responsible |
 |---|---|---|
@@ -434,7 +423,7 @@ ShadhinCore.instance.defaults.fcmToken = fcmToken
 
 ---
 
-## 10. Quick API Reference
+## 9. Quick API Reference
 
 | API | Description |
 |---|---|
@@ -450,7 +439,7 @@ ShadhinCore.instance.defaults.fcmToken = fcmToken
 
 ---
 
-## 11. Vendor Requirements
+## 10. Vendor Requirements
 
 - Target **iOS 14.0** or later
 - Collect user MSISDN via your own UI
@@ -461,7 +450,7 @@ ShadhinCore.instance.defaults.fcmToken = fcmToken
 
 ---
 
-## 12. Troubleshooting
+## 11. Troubleshooting
 
 | Issue | Solution |
 |---|---|
