@@ -692,7 +692,7 @@ extension Swift.Collection {
     BatchedCollection(base: self, size: size)
   }
 }
-@_hasMissingDesignatedInitializers final public class AEADChaCha20Poly1305 : Shadhin_Gp.AEAD {
+@_hasMissingDesignatedInitializers final public class AEADChaCha20Poly1305 {
   public static let kLen: Swift.Int
   public static var ivRange: Swift.Range<Swift.Int>
   public static func encrypt(_ plainText: Swift.Array<Swift.UInt8>, key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>, authenticationHeader: Swift.Array<Swift.UInt8>) throws -> (cipherText: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>)
@@ -1138,76 +1138,6 @@ extension Shadhin_Gp.ArtistDownloaded {
     @objc get
     @objc set
   }
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AudioPlayer : ObjectiveC.NSObject {
-  public var currentItem: Shadhin_Gp.AudioItem? {
-    get
-  }
-  public func cancelPreviousRequest()
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func getPlayableUrlAndPlay(item: Shadhin_Gp.AudioItem, oldValue: Shadhin_Gp.AudioItem?)
-  #endif
-  public func getPlayUrlRetry(_ cType: Swift.String, _ pCode: Swift.String, _ tType: Swift.String, _ url: Swift.String)
-  public func playUrl(url: Swift.String, isLocal: Swift.Bool = false, isNewItem: Swift.Bool, currentTime: CoreMedia.CMTime = .zero)
-  public func retryContentPlay()
-  public var totalDurationWatched: Foundation.TimeInterval {
-    get
-  }
-  weak public var delegate: (any Shadhin_Gp.AudioPlayerDelegate)?
-  public var maximumConnectionLossTime: Foundation.TimeInterval
-  public var adjustQualityAutomatically: Swift.Bool
-  public var defaultQuality: Shadhin_Gp.AudioQuality
-  public var adjustQualityTimeInternal: Foundation.TimeInterval {
-    get
-    set
-  }
-  public var adjustQualityAfterInterruptionCount: Swift.Int {
-    get
-    set
-  }
-  public var maximumRetryCount: Swift.Int {
-    get
-    set
-  }
-  public var retryTimeout: Foundation.TimeInterval {
-    get
-    set
-  }
-  public var resumeAfterInterruption: Swift.Bool
-  public var resumeAfterConnectionLoss: Swift.Bool
-  public var mode: Shadhin_Gp.AudioPlayerMode {
-    get
-    set
-  }
-  public var volume: Swift.Float {
-    get
-    set
-  }
-  public var rate: Swift.Float {
-    get
-    set
-  }
-  public var bufferingStrategy: Shadhin_Gp.AudioPlayerBufferingStrategy {
-    get
-    set
-  }
-  public var preferredBufferDurationBeforePlayback: Foundation.TimeInterval
-  public var preferredForwardBufferDuration: Foundation.TimeInterval
-  public enum SeekingBehavior {
-    case multiplyRate(Swift.Float)
-    case changeTime(every: Foundation.TimeInterval, delta: Foundation.TimeInterval)
-  }
-  public var seekingBehavior: Shadhin_Gp.AudioPlayer.SeekingBehavior {
-    get
-    set
-  }
-  public var state: Shadhin_Gp.AudioPlayerState {
-    get
-  }
-  public var currentQuality: Shadhin_Gp.AudioQuality {
-    get
-  }
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ConstraintMakerFinalizable {
   @discardableResult
@@ -2279,13 +2209,6 @@ extension Shadhin_Gp.CS.BigInt {
 }
 public enum PKCS7 {
 }
-extension UIKit.UIResponder {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public var parentViewController: UIKit.UIViewController? {
-    get
-  }
-  #endif
-}
 extension Shadhin_Gp.AlbumMyMusic {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<Shadhin_Gp.AlbumMyMusic>
   #if compiler(>=5.3) && $NonescapableTypes
@@ -2339,29 +2262,6 @@ extension Shadhin_Gp.AlbumMyMusic {
 }
 public func timeAgoSince(_ date: Foundation.Date) -> Swift.String
 public func numberCompact(num: Swift.Double, roundingNumber: Swift.Int = 1) -> Swift.String
-extension Shadhin_Gp.AudioPlayer {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var items: [Shadhin_Gp.AudioItem]? {
-    get
-  }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var currentItemIndexInQueue: Swift.Int? {
-    get
-  }
-  #endif
-  public var hasNext: Swift.Bool {
-    get
-  }
-  public var hasPrevious: Swift.Bool {
-    get
-  }
-  public func play(item: Shadhin_Gp.AudioItem)
-  public func play(items: [Shadhin_Gp.AudioItem], startAtIndex index: Swift.Int = 0)
-  public func add(item: Shadhin_Gp.AudioItem)
-  public func add(items: [Shadhin_Gp.AudioItem])
-  public func removeItem(at index: Swift.Int)
-}
 public struct GPContent : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -2825,23 +2725,6 @@ extension Swift.Collection where Self.Element == Swift.UInt8, Self.Index == Swif
 }
 @usableFromInline
 internal func strideCount(from: Swift.Int, to: Swift.Int, by: Swift.Int) -> Swift.Int
-public enum AudioPlayerError : Swift.Error {
-  case maximumRetryCountHit
-  case foundationError(any Swift.Error)
-  case itemNotConsideredPlayable
-  case noItemsConsideredPlayable
-}
-public enum AudioPlayerState {
-  case buffering
-  case playing
-  case paused
-  case stopped
-  case waitingForConnection
-  case failed(Shadhin_Gp.AudioPlayerError)
-}
-extension Shadhin_Gp.AudioPlayerState : Swift.Equatable {
-}
-public func == (lhs: Shadhin_Gp.AudioPlayerState, rhs: Shadhin_Gp.AudioPlayerState) -> Swift.Bool
 public protocol Connection {
   #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any Shadhin_Gp.ConnectionDelegate)? { get set }
@@ -3064,73 +2947,11 @@ extension Shadhin_Gp.PBPopupBarBorderViewStyle {
 public protocol CryptoAuthenticator {
   func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
 }
-extension UIKit.UIView {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: Shadhin_Gp.ToastPosition = ToastManager.shared.position, title: Swift.String? = nil, image: UIKit.UIImage? = nil, style: Shadhin_Gp.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: Shadhin_Gp.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: Shadhin_Gp.ToastPosition = ToastManager.shared.position, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  #endif
-  @_Concurrency.MainActor @preconcurrency public func hideToast()
-  @_Concurrency.MainActor @preconcurrency public func hideToast(_ toast: UIKit.UIView)
-  @_Concurrency.MainActor @preconcurrency public func hideAllToasts(includeActivity: Swift.Bool = false, clearQueue: Swift.Bool = true)
-  @_Concurrency.MainActor @preconcurrency public func clearToastQueue()
-  @_Concurrency.MainActor @preconcurrency public func makeToastActivity(_ position: Shadhin_Gp.ToastPosition)
-  @_Concurrency.MainActor @preconcurrency public func makeToastActivity(_ point: CoreFoundation.CGPoint)
-  @_Concurrency.MainActor @preconcurrency public func hideToastActivity()
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func toastViewForMessage(_ message: Swift.String?, title: Swift.String?, image: UIKit.UIImage?, style: Shadhin_Gp.ToastStyle) throws -> UIKit.UIView
-  #endif
-}
 public struct ToastStyle {
   public init()
-  public var backgroundColor: UIKit.UIColor
-  public var titleColor: UIKit.UIColor
-  public var messageColor: UIKit.UIColor
-  public var maxWidthPercentage: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  public var maxHeightPercentage: CoreFoundation.CGFloat {
-    get
-    set
-  }
-  public var horizontalPadding: CoreFoundation.CGFloat
-  public var verticalPadding: CoreFoundation.CGFloat
-  public var cornerRadius: CoreFoundation.CGFloat
-  public var titleFont: UIKit.UIFont
-  public var messageFont: UIKit.UIFont
-  public var titleAlignment: UIKit.NSTextAlignment
-  public var messageAlignment: UIKit.NSTextAlignment
-  public var titleNumberOfLines: Swift.Int
-  public var messageNumberOfLines: Swift.Int
-  public var displayShadow: Swift.Bool
-  public var shadowColor: UIKit.UIColor
-  public var shadowOpacity: Swift.Float {
-    get
-    set
-  }
   public var shadowRadius: CoreFoundation.CGFloat
-  public var shadowOffset: CoreFoundation.CGSize
-  public var imageSize: CoreFoundation.CGSize
-  public var activitySize: CoreFoundation.CGSize
-  public var fadeDuration: Swift.Double
-  public var activityIndicatorColor: UIKit.UIColor
-  public var activityBackgroundColor: UIKit.UIColor
 }
 @_hasMissingDesignatedInitializers public class ToastManager {
-  public static let shared: Shadhin_Gp.ToastManager
-  public var style: Shadhin_Gp.ToastStyle
-  public var isTapToDismissEnabled: Swift.Bool
-  public var isQueueEnabled: Swift.Bool
-  public var duration: Swift.Double
-  public var position: Shadhin_Gp.ToastPosition
   @objc deinit
 }
 public enum ToastPosition {
@@ -3273,11 +3094,6 @@ extension Shadhin_Gp.ShadhinMusicView : UIKit.UICollectionViewDelegate, UIKit.UI
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
-}
-extension Shadhin_Gp.ShadhinMusicView : Shadhin_Gp.AudioPlayerDelegate {
-  @_Concurrency.MainActor @preconcurrency public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didFindDuration duration: Foundation.TimeInterval, for item: Shadhin_Gp.AudioItem)
-  @_Concurrency.MainActor @preconcurrency public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didChangeStateFrom from: Shadhin_Gp.AudioPlayerState, to state: Shadhin_Gp.AudioPlayerState)
-  @_Concurrency.MainActor @preconcurrency public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didUpdateProgressionTo time: Foundation.TimeInterval, percentageRead: Swift.Float)
 }
 extension Shadhin_Gp.ShadhinMusicView : Shadhin_Gp.iCarouselDataSource, Shadhin_Gp.iCarouselDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfItems(in carousel: Shadhin_Gp.iCarousel) -> Swift.Int
@@ -3424,10 +3240,6 @@ extension Swift.Double : Shadhin_Gp.ConstraintInsetTarget {
 extension CoreFoundation.CGFloat : Shadhin_Gp.ConstraintInsetTarget {
 }
 extension UIKit.UIEdgeInsets : Shadhin_Gp.ConstraintInsetTarget {
-}
-public protocol AEAD {
-  static var kLen: Swift.Int { get }
-  static var ivRange: Swift.Range<Swift.Int> { get }
 }
 public struct HKDF {
   public enum Error : Swift.Error {
@@ -3851,36 +3663,10 @@ public class CMAC : Shadhin_Gp.CryptoAuthenticator {
   public func authenticate(_ bytes: Swift.Array<Swift.UInt8>, cipher: any Shadhin_Gp.Cipher) throws -> Swift.Array<Swift.UInt8>
   @objc deinit
 }
-extension Shadhin_Gp.AudioPlayer {
-  public func resume()
-  public func pause()
-  public func previous(isUserForced: Swift.Bool = false)
-  public func next(isUserForced: Swift.Bool = false)
-  public func nextOrStop()
-  public func indexToPlay(index: Swift.Int, from: Swift.Int)
-  public func stop()
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func seek(to time: Foundation.TimeInterval, byAdaptingTimeToFitSeekableRanges: Swift.Bool = false, toleranceBefore: CoreMedia.CMTime = CMTime.positiveInfinity, toleranceAfter: CoreMedia.CMTime = CMTime.positiveInfinity, completionHandler: ((Swift.Bool) -> Swift.Void)? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func seekToSeekableRangeStart(padding: Foundation.TimeInterval, completionHandler: ((Swift.Bool) -> Swift.Void)? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public func seekToSeekableRangeEnd(padding: Foundation.TimeInterval, completionHandler: ((Swift.Bool) -> Swift.Void)? = nil)
-  #endif
-  public func remoteControlReceived(with event: UIKit.UIEvent)
-}
 extension UIKit.UIScrollView {
   @_Concurrency.MainActor @preconcurrency public func addPullLoadableView(_ loadView: any Shadhin_Gp.KRPullLoadable, type: Shadhin_Gp.KRPullLoaderType = .refresh)
   @_Concurrency.MainActor @preconcurrency public func removePullLoadableView(type: Shadhin_Gp.KRPullLoaderType)
   @_Concurrency.MainActor @preconcurrency public func pullToRefresh()
-}
-@_hasMissingDesignatedInitializers final public class AEADXChaCha20Poly1305 : Shadhin_Gp.AEAD {
-  public static let kLen: Swift.Int
-  public static var ivRange: Swift.Range<Swift.Int>
-  public static func encrypt(_ plainText: Swift.Array<Swift.UInt8>, key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>, authenticationHeader: Swift.Array<Swift.UInt8>) throws -> (cipherText: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>)
-  public static func decrypt(_ cipherText: Swift.Array<Swift.UInt8>, key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>, authenticationHeader: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>) throws -> (plainText: Swift.Array<Swift.UInt8>, success: Swift.Bool)
-  @objc deinit
 }
 @objc public enum AudioPlayerBufferingStrategy : Swift.Int {
   case defaultBuffering = 0
@@ -3936,33 +3722,6 @@ extension Shadhin_Gp.Blowfish : Shadhin_Gp.Cipher {
   required public init(from decoder: any Swift.Decoder) throws
 }
 public typealias TimeRange = (earliest: Foundation.TimeInterval, latest: Foundation.TimeInterval)
-extension Shadhin_Gp.AudioPlayer {
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var currentItemProgression: Foundation.TimeInterval? {
-    get
-  }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var currentItemDuration: Foundation.TimeInterval? {
-    get
-  }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var currentItemSeekableRange: Shadhin_Gp.TimeRange? {
-    get
-  }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var currentItemLoadedRange: Shadhin_Gp.TimeRange? {
-    get
-  }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var currentItemLoadedAhead: Foundation.TimeInterval? {
-    get
-  }
-  #endif
-}
 @inlinable internal func rotateLeft(_ value: Swift.UInt8, by: Swift.UInt8) -> Swift.UInt8 {
   ((value << by) & 0xff) | (value >> (8 - by))
 }
@@ -7103,27 +6862,6 @@ public struct AudioPlayerMode : Swift.OptionSet {
   public typealias ArrayLiteralElement = Shadhin_Gp.AudioPlayerMode
   public typealias Element = Shadhin_Gp.AudioPlayerMode
   public typealias RawValue = Swift.UInt
-}
-public typealias Metadata = [AVFoundation.AVMetadataItem]
-public protocol AudioPlayerDelegate : AnyObject {
-  func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didChangeStateFrom from: Shadhin_Gp.AudioPlayerState, to state: Shadhin_Gp.AudioPlayerState)
-  func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, shouldStartPlaying item: Shadhin_Gp.AudioItem) -> Swift.Bool
-  func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, willStartPlaying item: Shadhin_Gp.AudioItem)
-  func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didUpdateProgressionTo time: Foundation.TimeInterval, percentageRead: Swift.Float)
-  func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didFindDuration duration: Foundation.TimeInterval, for item: Shadhin_Gp.AudioItem)
-  func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didUpdateEmptyMetadataOn item: Shadhin_Gp.AudioItem, withData data: Shadhin_Gp.Metadata)
-  func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didLoad range: Shadhin_Gp.TimeRange, for item: Shadhin_Gp.AudioItem)
-  func audioPlayer(finishedPlaying item: Shadhin_Gp.AudioItem)
-}
-extension Shadhin_Gp.AudioPlayerDelegate {
-  public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didChangeStateFrom from: Shadhin_Gp.AudioPlayerState, to state: Shadhin_Gp.AudioPlayerState)
-  public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, shouldStartPlaying item: Shadhin_Gp.AudioItem) -> Swift.Bool
-  public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, willStartPlaying item: Shadhin_Gp.AudioItem)
-  public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didUpdateProgressionTo time: Foundation.TimeInterval, percentageRead: Swift.Float)
-  public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didFindDuration duration: Foundation.TimeInterval, for item: Shadhin_Gp.AudioItem)
-  public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didUpdateEmptyMetadataOn item: Shadhin_Gp.AudioItem, withData data: Shadhin_Gp.Metadata)
-  public func audioPlayer(_ audioPlayer: Shadhin_Gp.AudioPlayer, didLoad range: Shadhin_Gp.TimeRange, for item: Shadhin_Gp.AudioItem)
-  public func audioPlayer(finishedPlaying item: Shadhin_Gp.AudioItem)
 }
 extension Shadhin_Gp.VideosDownload {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<Shadhin_Gp.VideosDownload>
