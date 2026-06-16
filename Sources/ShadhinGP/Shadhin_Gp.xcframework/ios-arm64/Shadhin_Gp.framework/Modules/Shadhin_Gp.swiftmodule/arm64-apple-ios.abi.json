@@ -176813,35 +176813,56 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Database\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 338,
+      "offset": 271,
+      "length": 23,
+      "value": "\"com.shadhin.music.sdk\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Database\/CoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
       "length": 18,
       "value": "\"MusicDataModel 2\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Database\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 616,
+      "offset": 577,
       "length": 6,
       "value": "\"momd\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Database\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 973,
-      "length": 36,
-      "value": "\"❌ Loading of store failed:\""
+      "offset": 698,
+      "length": 65,
+      "value": "\"❌ CoreData model not found for identifier: \""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Database\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1008,
+      "offset": 762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Database\/CoreDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1063,
+      "offset": 994,
+      "length": 37,
+      "value": "\"❌ Loading of store failed: \""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Database\/CoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Database\/CoreDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1079,
       "length": 26,
       "value": "\"persistentContainer Load\""
     },
