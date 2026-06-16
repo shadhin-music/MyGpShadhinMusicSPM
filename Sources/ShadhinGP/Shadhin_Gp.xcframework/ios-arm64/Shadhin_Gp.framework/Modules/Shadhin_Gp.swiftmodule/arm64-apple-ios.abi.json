@@ -169071,14 +169071,14 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MusicPlayerV3\/MusicPlayerV3.swift",
       "kind": "StringLiteral",
-      "offset": 63050,
+      "offset": 63266,
       "length": 18,
       "value": "\"ShouldMuteTeaser\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MusicPlayerV3\/MusicPlayerV3.swift",
       "kind": "StringLiteral",
-      "offset": 63157,
+      "offset": 63373,
       "length": 20,
       "value": "\"GPMusicItemChanged\""
     },
@@ -169854,36 +169854,29 @@
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/PodcastNewDesign\/PodcastViewControllerVersionTwo.swift",
-      "kind": "Array",
-      "offset": 741,
-      "length": 126,
-      "value": "[\"76401d96\", \"a8dc943f\", \"07a87b0a\", \"ac092e46\", \"1f52ec73\", \"76766237\"]"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/PodcastNewDesign\/PodcastViewControllerVersionTwo.swift",
       "kind": "Dictionary",
-      "offset": 915,
+      "offset": 761,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/PodcastNewDesign\/PodcastViewControllerVersionTwo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1098,
+      "offset": 944,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/PodcastNewDesign\/PodcastViewControllerVersionTwo.swift",
       "kind": "BooleanLiteral",
-      "offset": 1165,
+      "offset": 1011,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/PodcastNewDesign\/PodcastViewControllerVersionTwo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3565,
+      "offset": 3411,
       "length": 5,
       "value": "false"
     },
@@ -171218,203 +171211,203 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "Array",
       "offset": 925,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1124,
       "length": 13,
       "value": "\"Leaderboard\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1153,
       "length": 15,
       "value": "\"Listen to Win\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1180,
       "length": 23,
       "value": "\"View your Leaderboard\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1218,
       "length": 12,
       "value": "\"Scoreboard\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1282,
       "length": 4,
       "value": "\"GP\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1303,
       "length": 14,
       "value": "\"Grameenphone\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1329,
       "length": 25,
       "value": "\"Payment with GP Number \""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1369,
       "length": 13,
       "value": "\"Participate\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1421,
       "length": 6,
       "value": "\"ROBI\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1444,
       "length": 20,
       "value": "\"Robi & Airtel User\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1476,
       "length": 27,
       "value": "\"Payment with Robi Number \""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1518,
       "length": 13,
       "value": "\"Participate\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1568,
       "length": 4,
       "value": "\"BL\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1588,
       "length": 12,
       "value": "\"Banglalink\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1612,
       "length": 33,
       "value": "\"Payment with Banglalink Number \""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1660,
       "length": 13,
       "value": "\"Participate\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1712,
       "length": 7,
       "value": "\"Bkash\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1735,
       "length": 7,
       "value": "\"BKash\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1754,
       "length": 28,
       "value": "\"Payment with bKash Account\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1797,
       "length": 13,
       "value": "\"Participate\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1852,
       "length": 7,
       "value": "\"Nagad\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1875,
       "length": 7,
       "value": "\"Nagad\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1894,
       "length": 28,
       "value": "\"Payment with Nagad Account\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1937,
       "length": 13,
       "value": "\"Participate\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 1992,
       "length": 5,
       "value": "\"SSL\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 2013,
       "length": 6,
       "value": "\"Bank\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 2031,
       "length": 26,
       "value": "\"Payment with credit Card\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/WinNStreamCell.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/WinNStreamCell.swift",
       "kind": "StringLiteral",
       "offset": 2072,
       "length": 13,
@@ -173437,86 +173430,86 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 4,
       "value": "\"-1\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 610,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 644,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 678,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 716,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "IntegerLiteral",
       "offset": 840,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 866,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 888,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 974,
-      "length": 10,
-      "value": "\"4389c11a\""
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1008,
+      "offset": 1000,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicArtistListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1047,
+      "offset": 1039,
       "length": 5,
       "value": "false"
     },
@@ -175229,14 +175222,14 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistsInPlaylistTC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistsInPlaylistTC.swift",
       "kind": "Array",
       "offset": 574,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistsInPlaylistTC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistsInPlaylistTC.swift",
       "kind": "Array",
       "offset": 631,
       "length": 2,
@@ -177458,34 +177451,34 @@
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/MyMusic\/MyMusicVC.swift",
       "kind": "StringLiteral",
       "offset": 864,
-      "length": 10,
-      "value": "\"d55d58a0\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/MyMusic\/MyMusicVC.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 892,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/MyMusic\/MyMusicVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 951,
+      "offset": 943,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/MyMusic\/MyMusicVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 992,
+      "offset": 984,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/MyMusic\/MyMusicVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1356,
+      "offset": 1348,
       "length": 1,
       "value": "1"
     },
@@ -177616,49 +177609,49 @@
       "value": "\"MUSIC_PAUSE\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistSearchVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistSearchVC.swift",
       "kind": "IntegerLiteral",
       "offset": 330,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistSearchVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistSearchVC.swift",
       "kind": "BooleanLiteral",
       "offset": 361,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistSearchVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistSearchVC.swift",
       "kind": "BooleanLiteral",
       "offset": 395,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistSearchVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistSearchVC.swift",
       "kind": "Array",
       "offset": 497,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistSearchVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistSearchVC.swift",
       "kind": "Array",
       "offset": 551,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistSearchVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistSearchVC.swift",
       "kind": "BooleanLiteral",
       "offset": 589,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/ArtistSearchVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/ArtistSearchVC.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 2,
@@ -179814,14 +179807,14 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistSongsPreviewVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistSongsPreviewVC.swift",
       "kind": "IntegerLiteral",
       "offset": 770,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistSongsPreviewVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistSongsPreviewVC.swift",
       "kind": "IntegerLiteral",
       "offset": 817,
       "length": 3,
@@ -182859,65 +182852,65 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "StringLiteral",
       "offset": 621,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "BooleanLiteral",
       "offset": 653,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "StringLiteral",
       "offset": 684,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "BooleanLiteral",
       "offset": 707,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "BooleanLiteral",
       "offset": 730,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "StringLiteral",
       "offset": 752,
-      "length": 10,
-      "value": "\"4389c11a\""
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 786,
+      "offset": 778,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 825,
+      "offset": 817,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/MusicAlbumListVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicAlbumListVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 911,
+      "offset": 903,
       "length": 5,
       "value": "false"
     },
@@ -185092,21 +185085,21 @@
       "value": "\"paymentUrl\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverMusicDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverMusicDetailsVC.swift",
       "kind": "StringLiteral",
       "offset": 447,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverMusicDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverMusicDetailsVC.swift",
       "kind": "StringLiteral",
       "offset": 473,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverMusicDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverMusicDetailsVC.swift",
       "kind": "IntegerLiteral",
       "offset": 505,
       "length": 1,
@@ -187052,56 +187045,56 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistOrSingleDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistOrSingleDetailsVC.swift",
       "kind": "BooleanLiteral",
       "offset": 607,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistOrSingleDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistOrSingleDetailsVC.swift",
       "kind": "StringLiteral",
       "offset": 801,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistOrSingleDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistOrSingleDetailsVC.swift",
       "kind": "StringLiteral",
       "offset": 834,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistOrSingleDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistOrSingleDetailsVC.swift",
       "kind": "StringLiteral",
       "offset": 867,
       "length": 3,
       "value": "\"P\""
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistOrSingleDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistOrSingleDetailsVC.swift",
       "kind": "BooleanLiteral",
       "offset": 901,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistOrSingleDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistOrSingleDetailsVC.swift",
       "kind": "BooleanLiteral",
       "offset": 937,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistOrSingleDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistOrSingleDetailsVC.swift",
       "kind": "BooleanLiteral",
       "offset": 973,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/PlaylistOrSingleDetailsVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/PlaylistOrSingleDetailsVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1009,
       "length": 5,
@@ -194874,8 +194867,8 @@
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/VmaxAdModel\/VmaxAdModel.swift",
       "kind": "Dictionary",
       "offset": 201,
-      "length": 164,
-      "value": "[(\"PTH0007\", \"4928e4d0\"), (\"PTH0011\", \"1dd32241\"), (\"PTH0026\", \"f214e121\"), (\"PTH0032\", \"ad063de8\"), (\"PTH0029\", \"3fff9713\"), (\"PTH0042\", \"8949b8f1\")]"
+      "length": 116,
+      "value": "[(\"PTH0007\", \"\"), (\"PTH0011\", \"\"), (\"PTH0026\", \"\"), (\"PTH0032\", \"\"), (\"PTH0029\", \"\"), (\"PTH0042\", \"\")]"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/BL+BkashPayment\/BLPaymentRequestResponse.swift",
@@ -195389,42 +195382,42 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverVC.swift",
       "kind": "BooleanLiteral",
       "offset": 880,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverVC.swift",
       "kind": "BooleanLiteral",
       "offset": 914,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverVC.swift",
       "kind": "IntegerLiteral",
       "offset": 8751,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverVC.swift",
       "kind": "IntegerLiteral",
       "offset": 8781,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverVC.swift",
       "kind": "BooleanLiteral",
       "offset": 8812,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/Discover\/DiscoverVC.swift",
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/DiscoverVC.swift",
       "kind": "BooleanLiteral",
       "offset": 8846,
       "length": 5,
