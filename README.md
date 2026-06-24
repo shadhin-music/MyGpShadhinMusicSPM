@@ -69,7 +69,6 @@ Add the following keys to your app's `Info.plist`:
 <array>
     <string>audio</string>
     <string>fetch</string>
-    <string>processing</string>
 </array>
 
 <!-- Network access (required) -->
@@ -79,17 +78,9 @@ Add the following keys to your app's `Info.plist`:
     <true/>
 </dict>
 
-<!-- Photo library -->
-<key>NSPhotoLibraryUsageDescription</key>
-<string>Used to select a profile picture.</string>
-
-<!-- Camera -->
-<key>NSCameraUsageDescription</key>
-<string>Used to take a profile picture.</string>
-
-<!-- Microphone -->
-<key>NSMicrophoneUsageDescription</key>
-<string>Used for audio features.</string>
+<!-- TabBar Glass Effect OFF -->
+<key>UIDesignRequiresCompatibility</key>
+<true/>
 ```
 
 ---
