@@ -41,6 +41,7 @@ import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class ShadhinGP : ObjectiveC.NSObject {
   public static let shared: Shadhin_Gp.ShadhinGP
   weak final public var eventDelegate: (any Shadhin_Gp.ShadhinGpEventCallback)?
+  weak final public var sdkAuthDelegate: (any Shadhin_Gp.ShadhinMusicViewDelegate)?
   weak final public var configDataSource: (any Shadhin_Gp.ShadhinGpConfigurationDataSource)?
   final public var isVmaxInitialized: Swift.Bool
   final public func fontInit()
@@ -3103,16 +3104,21 @@ public class JSONHubProtocol : Shadhin_Gp.HubProtocol {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency public class ShadhinMusicView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public var exPlore: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var goToSdk: (Swift.String) -> Swift.Void
-  @_Concurrency.MainActor @preconcurrency public var gpDeletegate: (any Shadhin_Gp.ShadhinMusicViewDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var gpDeletegate: (any Shadhin_Gp.ShadhinMusicViewDelegate)? {
+    get
+    set
+  }
   @_Concurrency.MainActor @preconcurrency public static var didSelectContent: Shadhin_Gp.GPContent?
   @_Concurrency.MainActor @preconcurrency public static var shortsPatchID: Swift.Int
   @_Concurrency.MainActor @preconcurrency public static var shortsSelectContent: Shadhin_Gp.ReelsContent?
+  @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func willMove(toWindow newWindow: UIKit.UIWindow?)
   #endif
-  @objc deinit
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+}
+extension Shadhin_Gp.ShadhinMusicView {
   @_Concurrency.MainActor @preconcurrency public func clickListenerForMsisdn()
   @_Concurrency.MainActor @preconcurrency public func gotoShadhinSDK()
 }
@@ -3135,9 +3141,12 @@ extension Shadhin_Gp.ShadhinMusicView : Shadhin_Gp.iCarouselDataSource, Shadhin_
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func carousel(_ carousel: Shadhin_Gp.iCarousel, itemTransformForOffset offset: CoreFoundation.CGFloat, baseTransform: QuartzCore.CATransform3D) -> QuartzCore.CATransform3D
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func carouselDidEndScrollingAnimation(_ carousel: Shadhin_Gp.iCarousel)
 }
-public protocol ShadhinMusicViewDelegate {
+public protocol ShadhinMusicViewDelegate : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
   func gotoShadhinSDK(completionHandler: @escaping (UIKit.UIViewController, Swift.String, UIKit.UINavigationController?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func shadhinSDKRefreshAccessToken(completion: @escaping (_ newToken: Swift.String?) -> Swift.Void)
   #endif
 }
 extension Shadhin_Gp.CS.BigUInt {

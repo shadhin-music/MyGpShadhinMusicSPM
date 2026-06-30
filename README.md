@@ -38,7 +38,7 @@ https://github.com/shadhin-music/MyGpShadhinMusicSPM
 dependencies: [
     .package(
         url: "https://github.com/shadhin-music/MyGpShadhinMusicSPM",
-        from: "2.0.5"
+        from: "2.0.6"
     )
 ],
 targets: [
@@ -208,6 +208,17 @@ class ViewController: UIViewController, ShadhinMusicViewDelegate {
                     delegate: self
                 )
             }
+        }
+    }
+    
+    // Need RefreshToken
+    func shadhinSDKRefreshAccessToken(completion: @escaping (String?) -> Void) {
+        guard let msisdn = msisdn else {
+            completion(nil)
+            return
+        }
+        loginUser(msisdn: msisdn) { token in
+            completion(token)
         }
     }
 }
