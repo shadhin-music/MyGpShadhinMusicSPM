@@ -44,7 +44,6 @@ import _SwiftConcurrencyShims
   weak final public var sdkAuthDelegate: (any Shadhin_Gp.ShadhinMusicViewDelegate)?
   weak final public var configDataSource: (any Shadhin_Gp.ShadhinGpConfigurationDataSource)?
   final public var isVmaxInitialized: Swift.Bool
-  final public func fontInit()
   @objc deinit
 }
 public protocol ConstraintDirectionalInsetTarget : Shadhin_Gp.ConstraintConstantTarget {
@@ -3143,7 +3142,7 @@ extension Shadhin_Gp.ShadhinMusicView : Shadhin_Gp.iCarouselDataSource, Shadhin_
 }
 public protocol ShadhinMusicViewDelegate : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
-  func gotoShadhinSDK(completionHandler: @escaping (UIKit.UIViewController, Swift.String, UIKit.UINavigationController?) -> Swift.Void)
+  func gotoShadhinSDK(completionHandler: @escaping (_ parentVC: UIKit.UIViewController, _ accessToken: Swift.String, _ rcCode: Swift.String?, _ navController: UIKit.UINavigationController?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   func shadhinSDKRefreshAccessToken(completion: @escaping (_ newToken: Swift.String?) -> Swift.Void)

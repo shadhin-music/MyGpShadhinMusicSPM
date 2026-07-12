@@ -38,7 +38,7 @@ https://github.com/shadhin-music/MyGpShadhinMusicSPM
 dependencies: [
     .package(
         url: "https://github.com/shadhin-music/MyGpShadhinMusicSPM",
-        from: "2.0.6"
+        from: "2.0.7"
     )
 ],
 targets: [
@@ -193,23 +193,62 @@ class ViewController: UIViewController, ShadhinMusicViewDelegate {
 
     // MARK: - ShadhinMusicViewDelegate
 
-    func gotoShadhinSDK(completionHandler: @escaping (UIViewController, String, UINavigationController?) -> Void) {
-        // See Section 7 for loginUser() implementation
-        loginUser(msisdn: demoMSISDN) { [weak self] token in
-            guard let self = self else { return }
-            DispatchQueue.main.async {
-                completionHandler(self, token, self.navigationController)
-                
-                ShadhinVmaxInitializer.shared.initialize(
-                    vmaxAccountKey: "YOUR_VMAX_ACCOUNT_KEY",
-                    vmaxAppId:      "YOUR_VMAX_APP_ID",
-                    vmaxPrivateKey: "YOUR_VMAX_PRIVATE_KEY",
-                    vmaxKeyId:      "YOUR_VMAX_KEY_ID",
-                    delegate: self
-                )
-            }
-        }
-    }
+     /*  MARK: - RC Code Example
+       -------------Home----------------
+       Library: MApMWQ==
+       Podcast: MApQRA==
+       Audiobook: MApCSw==
+       Shorts: MApTVg==
+       -------------Details--------------
+       Album: MzU1MzkKUgpudWxsCnRydWUKbnVsbA==
+       Song: MTE1OTk4ClMKbnVsbAp0cnVlCm51bGw=
+       Podcast Episode: Mjc2OApQREJDCkVQSVNPREUKdHJ1ZQpudWxs
+       Playlist: MTAwMDYKUApudWxsCnRydWUKbnVsbA==
+       AI Playlist: MTcwNTUKUApBSQp0cnVlCm51bGw=
+       User Create Playlist: MTY4NzUKUApVQwp0cnVlCm51bGw=
+       Audiobook Details: MTI2CkJLCkFVRElPQk9PSwp0cnVlCm51bGw=
+       Audiobook NARRATOR: MTAzCkJLCk5BUlJBVE9SCnRydWUKbnVsbA==
+       Audiobook AUTHOR: MTA2CkJLCkFVVEhPUgp0cnVlCm51bGw=
+       Audiobook VOICE_ARTIST: MTA0CkJLClZPSUNFX0FSVElTVAp0cnVlCm51bGw=
+       Shorts Audio: MzA0ClNBClNIT1JUU19BVURJTwp0cnVlCjIx
+       Shorts Video: Nzk0ClNWClNIT1JUU19WSURFTwp0cnVlCjM3
+       Shorts Playlist: MTMKU1AKU0hPUlRTX1BMQVlMSVNUCnRydWUKMzAKNTA5
+       Shorts Channel: MTMKQwpDSEFOTkVMCnRydWU=
+    */
+
+     func gotoShadhinSDK(completionHandler: @escaping (_ parentVC: UIViewController, _ accessToken: String, _ rcCode: String?, _ navController: UINavigationController?)-> Void) {
+         guard let msisdn = self.msisdn else {
+             dprint("⚠️ MSISDN is nil")
+             return
+         }
+         
+         loginUser(msisdn: msisdn) { [weak self] token in
+             guard let self = self else { return }
+             
+             DispatchQueue.main.async {
+                 #if DEBUG
+                 // If you want to test with an RC code, pass the RC code as the third parameter.
+                 // Example:
+                 // completionHandler(self, token, "YOUR_RC_CODE", self.navigationController)
+                 //
+                 // If RC code is not required, pass `nil` instead.
+                 completionHandler(self, token, "Mjc2OApQREJDCkVQSVNPREUKdHJ1ZQpudWxs", self.navigationController)
+                 #else
+                 // Production: Pass `nil` when RC code is not used.
+                 completionHandler(self, token, nil, self.navigationController)
+                 #endif
+                 
+                // Vmax Init
+                 ShadhinVmaxInitializer.shared.initialize(
+                     vmaxAccountKey: "YOUR_VMAX_ACCOUNT_KEY",
+                     vmaxAppId:      "YOUR_VMAX_APP_ID",
+                     vmaxPrivateKey: "YOUR_VMAX_PRIVATE_KEY",
+                     vmaxKeyId:      "YOUR_VMAX_KEY_ID",
+                     delegate: self
+                 )
+             }
+         }
+     }
     
     // Need RefreshToken
     func shadhinSDKRefreshAccessToken(completion: @escaping (String?) -> Void) {
@@ -303,7 +342,64 @@ extension ViewController: InitializationStatusDelegate {
 
 ---
 
-## 7. GP Login API
+## 7. RC_CODE Routing Mechanism
+
+RC_CODE is an encoded routing string used by the Host Application to navigate users directly to a specific destination within the SDK.
+
+The Host Application only needs to pass the RC_CODE to the SDK. The SDK automatically decodes the value, validates the routing parameters, and navigates to the appropriate screen.
+
+**Benefits**
+- Simple integration
+- Backward-compatible routing
+- Flexible navigation
+- Easily extensible for future enhancements
+
+### RC_CODE Values
+
+The following are sample RC_CODE values used to navigate to specific landing pages within the SDK.
+
+| Destination | RC_CODE |
+|---|---|
+| Library | `MApMWQ==` |
+| Podcast | `MApQRA==` |
+| Audiobook | `MApCSw==` |
+| Shorts | `MApTVg==` |
+
+> **Note:** These RC_CODE values are intended only for navigating to the corresponding landing pages or tabs. The RC_CODE used for opening a specific content details page is different.
+
+### Content Details Routing
+
+To navigate directly to a content details page, use the RC_CODE provided for that specific content.
+
+**Example**
+
+| Field | Value |
+|---|---|
+| Content Title | Boishakhi Sur |
+| RC_CODE | `MjAwMjcKUAp0cnVl` |
+
+```swift
+completionHandler(self, token, "MjAwMjcKUAp0cnVl", self.navigationController)
+```
+
+Passing this RC_CODE to the SDK will open the details page for **Boishakhi Sur**.
+
+### Opening the Home/Discover Page
+
+If you want the SDK to open on the default Home/Discover page, simply pass `nil` as the RC_CODE.
+
+**Example**
+
+```swift
+rcCode = nil
+completionHandler(self, token, nil, self.navigationController)
+```
+
+In this case, the SDK will launch and display the Home/Discover page by default.
+
+---
+
+## 8. GP Login API
 
 Vendors must call this API to exchange the user MSISDN for an access token.
 
@@ -411,7 +507,7 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
-## 8. Integration Flow Summary
+## 9. Integration Flow Summary
 
 | Step | Action | Responsible |
 |---|---|---|
@@ -425,7 +521,7 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
-## 9. Quick API Reference
+## 10. Quick API Reference
 
 | API | Description |
 |---|---|
@@ -441,7 +537,7 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
-## 10. Vendor Requirements
+## 11. Vendor Requirements
 
 - Target **iOS 14.0** or later
 - Collect user MSISDN via your own UI
@@ -452,7 +548,7 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
-## 11. Troubleshooting
+## 12. Troubleshooting
 
 | Issue | Solution |
 |---|---|

@@ -504,27 +504,6 @@
                 "accessorKind": "_modify"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "fontInit",
-            "printedName": "fontInit()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Shadhin_Gp0A2GPC8fontInityyF",
-            "mangledName": "$s10Shadhin_Gp0A2GPC8fontInityyF",
-            "moduleName": "Shadhin_Gp",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -14226,6 +14205,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Shadhin_Gp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Shadhin_Gp",
         "declAttributes": [
@@ -64556,7 +64545,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(UIKit.UIViewController, Swift.String, UIKit.UINavigationController?) -> ()",
+                "printedName": "(UIKit.UIViewController, Swift.String, Swift.String?, UIKit.UINavigationController?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -64566,7 +64555,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(UIKit.UIViewController, Swift.String, UIKit.UINavigationController?)",
+                    "printedName": "(UIKit.UIViewController, Swift.String, Swift.String?, UIKit.UINavigationController?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -64579,6 +64568,20 @@
                         "name": "String",
                         "printedName": "Swift.String",
                         "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       },
                       {
                         "kind": "TypeNominal",
@@ -64600,8 +64603,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Shadhin_Gp0A17MusicViewDelegateP04gotoA3SDK17completionHandleryySo16UIViewControllerC_SSSo012UINavigationK0CSgtc_tF",
-            "mangledName": "$s10Shadhin_Gp0A17MusicViewDelegateP04gotoA3SDK17completionHandleryySo16UIViewControllerC_SSSo012UINavigationK0CSgtc_tF",
+            "usr": "s:10Shadhin_Gp0A17MusicViewDelegateP04gotoA3SDK17completionHandleryySo16UIViewControllerC_S2SSgSo012UINavigationK0CSgtc_tF",
+            "mangledName": "$s10Shadhin_Gp0A17MusicViewDelegateP04gotoA3SDK17completionHandleryySo16UIViewControllerC_S2SSgSo012UINavigationK0CSgtc_tF",
             "moduleName": "Shadhin_Gp",
             "genericSig": "<τ_0_0 where τ_0_0 : Shadhin_Gp.ShadhinMusicViewDelegate>",
             "sugared_genericSig": "<Self where Self : Shadhin_Gp.ShadhinMusicViewDelegate>",
@@ -152076,6 +152079,34 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/RcCodeGenerator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/RcCodeGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 2706,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/RcCodeGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2751,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/ShadhinCore\/RcCodeGenerator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2890,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/Cell\/SqrWithDescBelow.swift",
       "kind": "Array",
       "offset": 751,
@@ -157704,6 +157735,20 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/MyMusic\/PlaylistSongsVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 821,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/MyMusic\/PlaylistSongsVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 860,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/CircularProgress.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
@@ -159904,49 +159949,49 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 32758,
+      "offset": 32783,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 32771,
+      "offset": 32796,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 32903,
+      "offset": 32928,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 32907,
+      "offset": 32932,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 32948,
+      "offset": 32973,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 32952,
+      "offset": 32977,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 32955,
+      "offset": 32980,
       "length": 2,
       "value": "21"
     },

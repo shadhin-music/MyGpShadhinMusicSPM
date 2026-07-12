@@ -70,7 +70,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		tXGb+Llw75a1NEygqB6j4+pm9WU=
+		ZxcksIofi8spAHQB4aC/3ypR++Q=
 		</data>
 		<key>AudioBookDetailsVC.nib</key>
 		<data>
@@ -474,11 +474,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		HogroHBZu/8zuD0KeykALl3ZaO8=
+		LAIVMTZQ9DxMYnT/pZpUBVritLo=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oYn+Q22n4hvSiEVOfwu4gBs//1c=
+		GgsFVo9mNXq8LumOYMujhna2jPY=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -486,19 +486,19 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oYn+Q22n4hvSiEVOfwu4gBs//1c=
+		GgsFVo9mNXq8LumOYMujhna2jPY=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		h5ai2Dxl7TZHJhNKwnpxiIKzQSk=
+		KXFSyAV9M9wA9OW0kno65Ql3SMg=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HogroHBZu/8zuD0KeykALl3ZaO8=
+		LAIVMTZQ9DxMYnT/pZpUBVritLo=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OMkvnATJbBDG+9pcz5yTUnc4iqA=
+		vQsxCIjIGvTLUU79aHQNbhOyCN8=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -506,11 +506,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OMkvnATJbBDG+9pcz5yTUnc4iqA=
+		vQsxCIjIGvTLUU79aHQNbhOyCN8=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		51vOddwA17YHmibgq0NerqCMXKQ=
+		TwyYtBWIi7hsx+rW+iONBtoPbdI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1432,7 +1432,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dhgp7bpfO7nBOnC/VbRpGQHAYlY+kMrEzhfWXZLFvpU=
+			vndWhb8xP5qNM+GwRLkAvFPTy1xdFLGTcJEkWtYF+XE=
 			</data>
 		</dict>
 		<key>AudioBookDetailsVC.nib</key>
@@ -2132,14 +2132,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SAavS+725xygflaMo2l6sURIBesGwT94YA2HiZ74Jbg=
+			soRRH6OdoeyddGhRisLrtaUVMDqZxAEAmdzZuk38+Bg=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jw2S3kTWjwCEEXaJC8RQL9TwNNoQ1F5PHkV26gF6vgk=
+			pkIYEzzQgARcjAK/ftAqdCfv/pJG5QYAvj590mFhU9w=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2153,28 +2153,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jw2S3kTWjwCEEXaJC8RQL9TwNNoQ1F5PHkV26gF6vgk=
+			pkIYEzzQgARcjAK/ftAqdCfv/pJG5QYAvj590mFhU9w=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DqEbWZDW5aj/6U9TgmnllNJjPpxJ0Bc51KCZ7LzG4/A=
+			4Xsc9jhDy/fWfqJyFcImASo7GDyMGRyk/y06/DiY0RY=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SAavS+725xygflaMo2l6sURIBesGwT94YA2HiZ74Jbg=
+			soRRH6OdoeyddGhRisLrtaUVMDqZxAEAmdzZuk38+Bg=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1qCHFhbXS1uItU126rA7AF2/R9O0i8PRiibDcTYerO0=
+			YmZpuoKq8r777uTIVhRdf5ygNaTPWnyBkDAVchrkmVs=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2188,14 +2188,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1qCHFhbXS1uItU126rA7AF2/R9O0i8PRiibDcTYerO0=
+			YmZpuoKq8r777uTIVhRdf5ygNaTPWnyBkDAVchrkmVs=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vsslAeBCVzZxxk6uJVHAfjdlJcy3su7vUHt9/0knLrU=
+			BNzvsnsRITeCSA3UcKkH5vOrtoH2BYQG0jYvVN8Gmho=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
