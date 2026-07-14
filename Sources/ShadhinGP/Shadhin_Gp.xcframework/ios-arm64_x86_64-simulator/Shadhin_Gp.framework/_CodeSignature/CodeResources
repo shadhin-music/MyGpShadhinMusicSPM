@@ -70,7 +70,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ZxcksIofi8spAHQB4aC/3ypR++Q=
+		PUdIq3VnBsbbqjYn3bqDBxXfOPQ=
 		</data>
 		<key>AudioBookDetailsVC.nib</key>
 		<data>
@@ -474,11 +474,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LAIVMTZQ9DxMYnT/pZpUBVritLo=
+		3uJJfroHgRePs4u6BOBljyArDdA=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GgsFVo9mNXq8LumOYMujhna2jPY=
+		zKns8rc3Ig+aUmPECnBoJIGzMXU=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -486,19 +486,19 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GgsFVo9mNXq8LumOYMujhna2jPY=
+		zKns8rc3Ig+aUmPECnBoJIGzMXU=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KXFSyAV9M9wA9OW0kno65Ql3SMg=
+		5v7jJjerrWOVwqE+BIS5dZsA7nU=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LAIVMTZQ9DxMYnT/pZpUBVritLo=
+		3uJJfroHgRePs4u6BOBljyArDdA=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vQsxCIjIGvTLUU79aHQNbhOyCN8=
+		+tvhsc2zQr8ErllOtwHB65ugja0=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -506,11 +506,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vQsxCIjIGvTLUU79aHQNbhOyCN8=
+		+tvhsc2zQr8ErllOtwHB65ugja0=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TwyYtBWIi7hsx+rW+iONBtoPbdI=
+		Vu59Axi53Pmbsu/uq/DhXS67WZw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -578,7 +578,7 @@
 		</data>
 		<key>MyMusic.storyboardc/2mo-NK-SC8-view-EkH-6K-NjW.nib</key>
 		<data>
-		lmiGl8TDFQbeUz7G94vdJilp/iI=
+		LPjkV8ez3JLs6hl/51AsPawryks=
 		</data>
 		<key>MyMusic.storyboardc/B4g-Eo-e7p-view-xHc-lL-Cey.nib</key>
 		<data>
@@ -1432,7 +1432,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vndWhb8xP5qNM+GwRLkAvFPTy1xdFLGTcJEkWtYF+XE=
+			Ke00xabeKyXpw3avLdvDWDxPJpzelLtAcHF9HvcvGeg=
 			</data>
 		</dict>
 		<key>AudioBookDetailsVC.nib</key>
@@ -2132,14 +2132,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			soRRH6OdoeyddGhRisLrtaUVMDqZxAEAmdzZuk38+Bg=
+			1+V9wes+gm4yJqun/FEJnx3JmIIxCcBfNTuFn86P6ZE=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pkIYEzzQgARcjAK/ftAqdCfv/pJG5QYAvj590mFhU9w=
+			EAuW7pfu9fY0tbQEitlG842mq5/COQkyDRJPzpG8iVY=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2153,28 +2153,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pkIYEzzQgARcjAK/ftAqdCfv/pJG5QYAvj590mFhU9w=
+			EAuW7pfu9fY0tbQEitlG842mq5/COQkyDRJPzpG8iVY=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Xsc9jhDy/fWfqJyFcImASo7GDyMGRyk/y06/DiY0RY=
+			h7pN/oeceJbuFEQ56aRorpd8+Z5lwIZPLWzeoagwsH8=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			soRRH6OdoeyddGhRisLrtaUVMDqZxAEAmdzZuk38+Bg=
+			1+V9wes+gm4yJqun/FEJnx3JmIIxCcBfNTuFn86P6ZE=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YmZpuoKq8r777uTIVhRdf5ygNaTPWnyBkDAVchrkmVs=
+			M3FPsj4B2zNZCaEc0jpVD8BfzCwg3noEZ6gm1f0R+ac=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2188,14 +2188,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YmZpuoKq8r777uTIVhRdf5ygNaTPWnyBkDAVchrkmVs=
+			M3FPsj4B2zNZCaEc0jpVD8BfzCwg3noEZ6gm1f0R+ac=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BNzvsnsRITeCSA3UcKkH5vOrtoH2BYQG0jYvVN8Gmho=
+			hF8m/2TrFHsISkrYFjUJsAf13ySWeNHRDtPij73FAoQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2314,7 +2314,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZPhu1rsiL56qN+MBzSRMlwCg6NpibmV7piYf1zQUWjw=
+			qIx+DeoNbAIYFlFI0FVoUWWQG02C1rrd0t/ne2NqoYo=
 			</data>
 		</dict>
 		<key>MyMusic.storyboardc/B4g-Eo-e7p-view-xHc-lL-Cey.nib</key>

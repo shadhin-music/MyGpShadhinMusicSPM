@@ -38,7 +38,7 @@ https://github.com/shadhin-music/MyGpShadhinMusicSPM
 dependencies: [
     .package(
         url: "https://github.com/shadhin-music/MyGpShadhinMusicSPM",
-        from: "2.0.7"
+        from: "2.0.8"
     )
 ],
 targets: [
@@ -396,6 +396,19 @@ completionHandler(self, token, nil, self.navigationController)
 ```
 
 In this case, the SDK will launch and display the Home/Discover page by default.
+
+
+### Deep Link Routing
+
+To navigate directly to a content details page, use the RC_CODE provided for that specific content.
+If you want the SDK to open on the default Home/Discover page, simply pass nil as the RC_CODE.
+  
+```swift
+
+  ShadhinGP.shared.gotoShadhinMusic(parentVC: self, accesToken: token,  rcCode: "MjAwMjcKUAp0cnVl", nav: self.navigationController)
+  
+```
+
 
 ---
 

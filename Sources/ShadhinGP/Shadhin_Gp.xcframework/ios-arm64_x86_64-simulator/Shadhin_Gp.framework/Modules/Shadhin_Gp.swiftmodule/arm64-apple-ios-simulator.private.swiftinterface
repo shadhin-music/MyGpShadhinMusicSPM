@@ -44,6 +44,9 @@ import _SwiftConcurrencyShims
   weak final public var sdkAuthDelegate: (any Shadhin_Gp.ShadhinMusicViewDelegate)?
   weak final public var configDataSource: (any Shadhin_Gp.ShadhinGpConfigurationDataSource)?
   final public var isVmaxInitialized: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func gotoShadhinMusic(parentVC: UIKit.UIViewController, accesToken: Swift.String, rcCode: Swift.String?, nav: UIKit.UINavigationController? = nil, tab: UIKit.UITabBarController? = nil)
+  #endif
   @objc deinit
 }
 public protocol ConstraintDirectionalInsetTarget : Shadhin_Gp.ConstraintConstantTarget {

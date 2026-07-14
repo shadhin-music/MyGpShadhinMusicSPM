@@ -504,6 +504,83 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "gotoShadhinMusic",
+            "printedName": "gotoShadhinMusic(parentVC:accesToken:rcCode:nav:tab:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITabBarController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITabBarController",
+                    "printedName": "UIKit.UITabBarController",
+                    "usr": "c:objc(cs)UITabBarController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Shadhin_Gp0A2GPC04gotoA5Music8parentVC10accesToken6rcCode3nav3tabySo16UIViewControllerC_S2SSgSo012UINavigationO0CSgSo08UITabBarO0CSgtF",
+            "mangledName": "$s10Shadhin_Gp0A2GPC04gotoA5Music8parentVC10accesToken6rcCode3nav3tabySo16UIViewControllerC_S2SSgSo012UINavigationO0CSgSo08UITabBarO0CSgtF",
+            "moduleName": "Shadhin_Gp",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
