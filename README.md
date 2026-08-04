@@ -38,7 +38,7 @@ https://github.com/shadhin-music/MyGpShadhinMusicSPM
 dependencies: [
     .package(
         url: "https://github.com/shadhin-music/MyGpShadhinMusicSPM",
-        from: "2.0.8"
+        from: "2.0.9"
     )
 ],
 targets: [
@@ -133,7 +133,7 @@ struct MyApp: App {
 ### Create IBOutlet
 
 ```swift
-    private var shadhinMuicView = ShadhinMusicView()
+    private var shadhinMusicView = ShadhinMusicView()
 
 ```
 
@@ -150,7 +150,7 @@ import Vmax
 
 class ViewController: UIViewController, ShadhinMusicViewDelegate {
 
-    private var shadhinMuicView = ShadhinMusicView()
+    private var shadhinMusicView = ShadhinMusicView()
     
     // Demo MSISDN — replace with real user MSISDN in production
     let demoMSISDN = "88017XXXXXXXX"
@@ -167,27 +167,52 @@ class ViewController: UIViewController, ShadhinMusicViewDelegate {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
     }
+
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+     
+        // Discover CTA button — radius, border color, text color, title text
+        shadhinMusicView.discoverCTABtnView.layer.borderColor = UIColor.red.cgColor
+        shadhinMusicView.discoverCTABtnView.layer.cornerRadius = 0
+        shadhinMusicView.discoverCTABtnLbl.textColor = .red
+        shadhinMusicView.discoverCTABtnLbl.text = "Home"
+     
+        // Main container border shadow
+        shadhinMusicView.mainBgView.layer.masksToBounds = false
+        shadhinMusicView.mainBgView.layer.shadowColor = UIColor.clear.cgColor
+        shadhinMusicView.mainBgView.layer.shadowOffset = CGSize(width: 0, height: 0)
+        shadhinMusicView.mainBgView.layer.shadowOpacity = 0
+        shadhinMusicView.mainBgView.layer.shadowRadius = 0
+     
+        // Corner radius
+        shadhinMusicView.mainBgViewCornerRadius = 0
+     
+        // Dynamic height
+        shadhinMusicView.onContentHeightUpdate = { height in
+            self.dprint("ShadhinMusicView Height: \(height)")
+        }
+    }
     
     // MARK: - Setup
     
     private func setupShadhinMusicView() {
-        self.shadhinMuicView.frame = self.view.bounds
-        self.shadhinMuicView.backgroundColor = .white
+        self.shadhinMusicView.frame = self.view.bounds
+        self.shadhinMusicView.backgroundColor = .white
         self.view.backgroundColor = .white
-        self.view.addSubview(shadhinMuicView)
+        self.view.addSubview(shadhinMusicView)
         NSLayoutConstraint.activate([
-            shadhinMuicView.topAnchor.constraint(equalTo: view.topAnchor),
-            shadhinMuicView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            shadhinMuicView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            shadhinMuicView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            shadhinMusicView.topAnchor.constraint(equalTo: view.topAnchor),
+            shadhinMusicView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            shadhinMusicView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            shadhinMusicView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
     }
     
     private func setupDelegates() {
-        shadhinMuicView.gpDeletegate = self
+        shadhinMusicView.gpDeletegate = self
         ShadhinGP.shared.eventDelegate = self
-        shadhinMuicView.exPlore = { [weak self] in
-            self?.shadhinMuicView.gotoShadhinSDK()
+        shadhinMusicView.exPlore = { [weak self] in
+            self?.shadhinMusicView.gotoShadhinSDK()
         }
     }
 
@@ -290,8 +315,8 @@ extension ViewController: InitializationStatusDelegate {
          case let .shortsItemClick(title, contentId, contentType):
              print("Shorts Click:", title, contentId, contentType)
 
-         case let .playPauseMusicClick(isPlaying, title, contentId, contentType):
-             print("isPlaying:", isPlaying, title, contentId, contentType)
+        case let .playPauseMusicClick(currentTime, isPlaying, title, contentId, contentType):
+            print("currentTime:", currentTime, "isPlaying:", isPlaying, title, contentId, contentType)
 
          case .previousMusicClick:
              print("Previous Music Click")
@@ -305,44 +330,114 @@ extension ViewController: InitializationStatusDelegate {
          case .logoClick:
              print("Logo Click")
 
-         case .exploreMoreClick:
-             print("Explore More")
-             
-         case let .shadhinVmaxEvent(payload):
-             prettyPrintJSON(payload)
+        case .discoverBtnClick:
+            print("Discover Button Click")
+            
+        case let .shadhinVmaxEvent(name, params):
+            print("Event_Name: \(name), Parameters: \(params)")
              
          default:
              break
          }
      }
- 
-     func prettyPrintJSON(_ dictionary: [String: Any]) {
-         
-         guard JSONSerialization.isValidJSONObject(dictionary) else {
-             print("❌ Invalid JSON")
-             return
-         }
-         
-         do {
-             let data = try JSONSerialization.data(
-                 withJSONObject: dictionary,
-                 options: [.prettyPrinted]
-             )
-             
-             if let jsonString = String(data: data, encoding: .utf8) {
-                 print(jsonString)
-             }
-             
-         } catch {
-             print("❌ JSON Print Error:", error)
-         }
-     }
  }
 ```
+---
+
+## 7. UI Customization Options
+ 
+`ShadhinMusicView` exposes several public properties so host apps can re-skin the widget to match their own brand — without needing SDK-side changes. All properties below are safe to set any time after the view is added to the hierarchy; the recommended place is `viewDidLayoutSubviews()`, so values re-apply correctly on rotation/trait changes.
+ 
+> ⚠️ **Set these AFTER `shadhinMusicView` has been added as a subview.** Setting them before `addSubview()` has no effect since the underlying outlets are not yet loaded.
+ 
+### Discover CTA Button — Border, Radius, Text
+ 
+Customize the appearance and label of the "Discover" call-to-action button:
+ 
+```swift
+shadhinMusicView.discoverCTABtnView.layer.borderColor = UIColor.red.cgColor
+shadhinMusicView.discoverCTABtnView.layer.cornerRadius = 0
+shadhinMusicView.discoverCTABtnLbl.textColor = .red
+shadhinMusicView.discoverCTABtnLbl.text = "Home"
+```
+ 
+### Main Container Shadow
+ 
+Remove or adjust the drop shadow applied to the widget's main background container:
+ 
+```swift
+shadhinMusicView.mainBgView.layer.masksToBounds = false
+shadhinMusicView.mainBgView.layer.shadowColor = UIColor.clear.cgColor
+shadhinMusicView.mainBgView.layer.shadowOffset = CGSize(width: 0, height: 0)
+shadhinMusicView.mainBgView.layer.shadowOpacity = 0
+shadhinMusicView.mainBgView.layer.shadowRadius = 0
+```
+ 
+### Corner Radius
+ 
+Override the widget's default corner radius (applied to the main container and related masked views):
+ 
+```swift
+shadhinMusicView.mainBgViewCornerRadius = 0
+```
+ 
+### Dynamic Height Closure
+ 
+`ShadhinMusicView`'s content height varies based on network state, available patches, and content availability. Since the widget is typically embedded inside a `UICollectionViewCell` or a stack view, host apps need the actual rendered height at runtime rather than a fixed design-time value — the `onContentHeightUpdate` closure reports this whenever it changes:
+ 
+```swift
+shadhinMusicView.onContentHeightUpdate = { height in
+    self.dprint("ShadhinMusicView Height: \(height)")
+    // Use this value to update your cell/row height and
+    // call collectionView.performBatchUpdates / invalidateLayout
+}
+```
+ 
+> ⚠️ **Do not hardcode a static height** for `ShadhinMusicView` in your layout (e.g. from Interface Builder's canvas preview). Interface Builder's canvas height can differ from the runtime-resolved height by a small margin depending on safe-area context. Always size your container using the value delivered by `onContentHeightUpdate`.
+ 
+### Full Reference — `viewDidLayoutSubviews()`
+ 
+A consolidated view of all customization points in context:
+ 
+```swift
+override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+ 
+    // Discover CTA button — radius, border color, text color, title text
+    shadhinMusicView.discoverCTABtnView.layer.borderColor = UIColor.red.cgColor
+    shadhinMusicView.discoverCTABtnView.layer.cornerRadius = 0
+    shadhinMusicView.discoverCTABtnLbl.textColor = .red
+    shadhinMusicView.discoverCTABtnLbl.text = "Home"
+ 
+    // Main container border shadow
+    shadhinMusicView.mainBgView.layer.masksToBounds = false
+    shadhinMusicView.mainBgView.layer.shadowColor = UIColor.clear.cgColor
+    shadhinMusicView.mainBgView.layer.shadowOffset = CGSize(width: 0, height: 0)
+    shadhinMusicView.mainBgView.layer.shadowOpacity = 0
+    shadhinMusicView.mainBgView.layer.shadowRadius = 0
+ 
+    // Corner radius
+    shadhinMusicView.mainBgViewCornerRadius = 0
+ 
+    // Dynamic height
+    shadhinMusicView.onContentHeightUpdate = { height in
+        self.dprint("ShadhinMusicView Height: \(height)")
+    }
+}
+```
+ 
+| Property / Closure | Purpose | Default |
+|---|---|---|
+| `discoverCTABtnView.layer.*` | Border color & corner radius of the Discover CTA | System gray border, pill radius |
+| `discoverCTABtnLbl.textColor` / `.text` | CTA label color & title | Default label color, `"Discover"` |
+| `mainBgView.layer.shadow*` | Drop shadow on the main container | Enabled (label-color shadow, offset 3,3, opacity 0.5, radius 5) |
+| `mainBgViewCornerRadius` | Corner radius applied to the main container | `16.0` |
+| `onContentHeightUpdate` | Reports live content height for dynamic sizing | `nil` (not observed) |
 
 ---
 
-## 7. RC_CODE Routing Mechanism
+
+## 8. RC_CODE Routing Mechanism
 
 RC_CODE is an encoded routing string used by the Host Application to navigate users directly to a specific destination within the SDK.
 
@@ -412,7 +507,7 @@ If you want the SDK to open on the default Home/Discover page, simply pass nil a
 
 ---
 
-## 8. GP Login API
+## 9. GP Login API
 
 Vendors must call this API to exchange the user MSISDN for an access token.
 
@@ -518,9 +613,7 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
----
-
-## 9. Integration Flow Summary
+## 10. Integration Flow Summary
 
 | Step | Action | Responsible |
 |---|---|---|
@@ -534,7 +627,7 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
-## 10. Quick API Reference
+## 11. Quick API Reference
 
 | API | Description |
 |---|---|
@@ -550,7 +643,7 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
-## 11. Vendor Requirements
+## 12. Vendor Requirements
 
 - Target **iOS 14.0** or later
 - Collect user MSISDN via your own UI
@@ -561,7 +654,7 @@ func loginUser(msisdn: String, completion: @escaping (String) -> Void) {
 
 ---
 
-## 12. Troubleshooting
+## 13. Troubleshooting
 
 | Issue | Solution |
 |---|---|
