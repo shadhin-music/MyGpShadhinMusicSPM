@@ -70,7 +70,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		PUdIq3VnBsbbqjYn3bqDBxXfOPQ=
+		7T0mMOxMC8bK7O+YkPIHOolXGz0=
 		</data>
 		<key>AudioBookDetailsVC.nib</key>
 		<data>
@@ -140,17 +140,13 @@
 		<data>
 		IirDzVcMQchWuwGZZZbFERJn6kA=
 		</data>
-		<key>BrandedActionCard.nib</key>
-		<data>
-		jDlFlMdAd7Mt5XaAmliIvtiqF1g=
-		</data>
 		<key>CampaignDetailsCell.nib</key>
 		<data>
 		vuAEJ3GefGgogKoIKCfnQPrMao4=
 		</data>
 		<key>CarouselDiscoveryCard.nib</key>
 		<data>
-		DN4fR4Kt1yw0pDL8DpN3lzqTp14=
+		Ds+QLxR/zQoIz+oUuy0J2TokOos=
 		</data>
 		<key>ChapterHeaderCell.nib</key>
 		<data>
@@ -394,7 +390,7 @@
 		</data>
 		<key>HeadlineFirstCard.nib</key>
 		<data>
-		2kP+r73XjKnpRveA14mEaEN+cko=
+		b1lhCGa9Z9DpeeIn3wEnmLd+plg=
 		</data>
 		<key>HelpCenterCVCell.nib</key>
 		<data>
@@ -422,7 +418,7 @@
 		</data>
 		<key>InfoRichPromoCard.nib</key>
 		<data>
-		jCGGPyN2xgkIT4drFGoTIXDuGwM=
+		IQq+RsYJ7leuKsY5POrIaGdNe/I=
 		</data>
 		<key>Inter-Bold.ttf</key>
 		<data>
@@ -474,11 +470,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3uJJfroHgRePs4u6BOBljyArDdA=
+		3k6yuvGiP1+REUykL839HBhufRU=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zKns8rc3Ig+aUmPECnBoJIGzMXU=
+		kBGygUdXdwZ0fum6QJK5t6sJTa0=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -486,19 +482,19 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zKns8rc3Ig+aUmPECnBoJIGzMXU=
+		kBGygUdXdwZ0fum6QJK5t6sJTa0=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5v7jJjerrWOVwqE+BIS5dZsA7nU=
+		aeW8vCPgmnjN9H7eT6ZnYZRa7Mo=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3uJJfroHgRePs4u6BOBljyArDdA=
+		3k6yuvGiP1+REUykL839HBhufRU=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+tvhsc2zQr8ErllOtwHB65ugja0=
+		am3NX17l2VQ7/5Nz30L/EHd+Cmc=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -506,11 +502,11 @@
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+tvhsc2zQr8ErllOtwHB65ugja0=
+		am3NX17l2VQ7/5Nz30L/EHd+Cmc=
 		</data>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Vu59Axi53Pmbsu/uq/DhXS67WZw=
+		9Os7ROOnzKgf7ppwfO/xL4ICBnw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1014,7 +1010,7 @@
 		</data>
 		<key>ShadhinMusicView.nib</key>
 		<data>
-		vlPNLvFlgkjn3NM7nrulRjSmqFM=
+		cLyC0573nlIjv16Sddgwhc00leY=
 		</data>
 		<key>ShadhinRewindVC.nib</key>
 		<data>
@@ -1246,11 +1242,11 @@
 		</data>
 		<key>VmaxCommonAdCell.nib</key>
 		<data>
-		8VXzLAiZ/Os3zMWeFD1rEo4hXZo=
+		CmnKJzUHcQR2DVJUFu4JAgIdkF0=
 		</data>
 		<key>VmaxMyProfileTVCell.nib</key>
 		<data>
-		ffWkxXDvShoTNYJA6bl41+krSbE=
+		WTbFVbBEs18XitswHdVnBaSfddk=
 		</data>
 		<key>WebViewVC.nib</key>
 		<data>
@@ -1432,7 +1428,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ke00xabeKyXpw3avLdvDWDxPJpzelLtAcHF9HvcvGeg=
+			WxcHmC3LPOeQXGa0jqZUWgGT4a8zrw8jbztSvoKHWFk=
 			</data>
 		</dict>
 		<key>AudioBookDetailsVC.nib</key>
@@ -1554,13 +1550,6 @@
 			CdbkwwFRPKcMQa0N/Bc9Xyxjw0iWp66PtsD/0eki9EM=
 			</data>
 		</dict>
-		<key>BrandedActionCard.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rk2aw5u2LAbIHFFCNnaWPIEXbe3i3THZzonLtKk9B7Y=
-			</data>
-		</dict>
 		<key>CampaignDetailsCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -1572,7 +1561,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h0m+Z64es/MJgkrnHNq1izv1zGhFXRVQoODygCjDuR8=
+			oUpINXGcdZekMbE3Mfs9qVO8+YmbpXMDYgXPWuDi7yA=
 			</data>
 		</dict>
 		<key>ChapterHeaderCell.nib</key>
@@ -1999,7 +1988,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i+kgencd1Y2fnfo2UI5U33V6JkCPjOLkGM2MBnCZghs=
+			GOH2XBvlE5ddgH7ovaQ3pC+MkD8yNksVY5D9KH30b/w=
 			</data>
 		</dict>
 		<key>HelpCenterCVCell.nib</key>
@@ -2041,7 +2030,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6++GVEDfnioHZru367gR7/zMRsV521i0l4/+VXj25gs=
+			VB5Ol+1xuRnT6nraD7E/+6ks5py5TDlDHMZ4jgzb9qw=
 			</data>
 		</dict>
 		<key>Inter-Bold.ttf</key>
@@ -2132,14 +2121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+V9wes+gm4yJqun/FEJnx3JmIIxCcBfNTuFn86P6ZE=
+			1742OO+dbJ0GDozSMtJJ786M24vtB7NP5XmYGg5FPE8=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAuW7pfu9fY0tbQEitlG842mq5/COQkyDRJPzpG8iVY=
+			8VQAOQDN0qBy8JimxMzeU8kbISH3hKi3dofLZHzL5Zc=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2153,28 +2142,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAuW7pfu9fY0tbQEitlG842mq5/COQkyDRJPzpG8iVY=
+			8VQAOQDN0qBy8JimxMzeU8kbISH3hKi3dofLZHzL5Zc=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h7pN/oeceJbuFEQ56aRorpd8+Z5lwIZPLWzeoagwsH8=
+			mfL9NyW5Eaw55DfpkbFhyARUiXQI5gkjKOsCzfzV2PM=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+V9wes+gm4yJqun/FEJnx3JmIIxCcBfNTuFn86P6ZE=
+			1742OO+dbJ0GDozSMtJJ786M24vtB7NP5XmYGg5FPE8=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M3FPsj4B2zNZCaEc0jpVD8BfzCwg3noEZ6gm1f0R+ac=
+			FpXhXhhWSiVzNx6N6QqP0KcpsgAanYx9gKHHQLcAmAo=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2188,14 +2177,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M3FPsj4B2zNZCaEc0jpVD8BfzCwg3noEZ6gm1f0R+ac=
+			FpXhXhhWSiVzNx6N6QqP0KcpsgAanYx9gKHHQLcAmAo=
 			</data>
 		</dict>
 		<key>Modules/Shadhin_Gp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hF8m/2TrFHsISkrYFjUJsAf13ySWeNHRDtPij73FAoQ=
+			NFvhLfCjDQy4of6kmRh4K4N6sVYOZB7KFCRJrq8HoPc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -3077,7 +3066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3qIVnkdf2ifnYf3Y1R9+Kj5/4Kc1Jf9nZJPLWLsi4E=
+			HGYfHkkcuSdOxqeTHvnByFzWOiQrRSNsojW7xNpmf1M=
 			</data>
 		</dict>
 		<key>ShadhinRewindVC.nib</key>
@@ -3483,14 +3472,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dMOGQNfb4/a2PAiSKzNKbtJWyT5loSQvfmTrt1ncjnM=
+			XvWqWlSigykTMo0iGCeG3XyIgkGQpVX+ay7sYNfl7cY=
 			</data>
 		</dict>
 		<key>VmaxMyProfileTVCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uInVr9C26tRfGKKMYyXh8XsD3Iwn7+dlPWXY8QuPhtY=
+			PiIVT+Srd7MRpeUXDOkIIUJxehr20IK/JClue34NgJg=
 			</data>
 		</dict>
 		<key>WebViewVC.nib</key>

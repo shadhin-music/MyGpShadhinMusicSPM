@@ -3104,6 +3104,10 @@ public class JSONHubProtocol : Shadhin_Gp.HubProtocol {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency public class ShadhinMusicView : UIKit.UIView {
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var scrollBgView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var discoverCTABtnView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var discoverCTABtnLbl: UIKit.UILabel!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var mainBgView: UIKit.UIView!
   @_Concurrency.MainActor @preconcurrency public var exPlore: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var goToSdk: (Swift.String) -> Swift.Void
   @_Concurrency.MainActor @preconcurrency public var gpDeletegate: (any Shadhin_Gp.ShadhinMusicViewDelegate)? {
@@ -3113,6 +3117,8 @@ public class JSONHubProtocol : Shadhin_Gp.HubProtocol {
   @_Concurrency.MainActor @preconcurrency public static var didSelectContent: Shadhin_Gp.GPContent?
   @_Concurrency.MainActor @preconcurrency public static var shortsPatchID: Swift.Int
   @_Concurrency.MainActor @preconcurrency public static var shortsSelectContent: Shadhin_Gp.ReelsContent?
+  @_Concurrency.MainActor @preconcurrency public var mainBgViewCornerRadius: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var onContentHeightUpdate: ((CoreFoundation.CGFloat) -> Swift.Void)?
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
@@ -5333,13 +5339,13 @@ public enum ShadhinGpAnalyticsEvent {
   case trackItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
   case patchItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
   case shortsItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
-  case playPauseMusicClick(isPlaying: Swift.Bool, title: Swift.String, contentId: Swift.String, contentType: Swift.String)
+  case playPauseMusicClick(currentTime: CoreFoundation.CGFloat, isPlaying: Swift.Bool, title: Swift.String, contentId: Swift.String, contentType: Swift.String)
   case previousMusicClick
   case nextMusicClick
   case sliderDidClick
   case logoClick
-  case exploreMoreClick
-  case shadhinVmaxEvent(payload: [Swift.String : Any])
+  case discoverBtnClick
+  case shadhinVmaxEvent(name: Swift.String, params: [Swift.String : Any])
   case shareClick(rcCode: Swift.String, title: Swift.String, imageUrl: Swift.String)
 }
 @objc @_hasMissingDesignatedInitializers public class TokenObj : ObjectiveC.NSObject, Swift.Codable {
