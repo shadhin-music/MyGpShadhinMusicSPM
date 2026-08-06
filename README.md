@@ -167,31 +167,6 @@ class ViewController: UIViewController, ShadhinMusicViewDelegate {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
     }
-
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-     
-        // Discover CTA button — radius, border color, text color, title text
-        shadhinMusicView.discoverCTABtnView.layer.borderColor = UIColor.red.cgColor
-        shadhinMusicView.discoverCTABtnView.layer.cornerRadius = 0
-        shadhinMusicView.discoverCTABtnLbl.textColor = .red
-        shadhinMusicView.discoverCTABtnLbl.text = "Home"
-     
-        // Main container border shadow
-        shadhinMusicView.mainBgView.layer.masksToBounds = false
-        shadhinMusicView.mainBgView.layer.shadowColor = UIColor.clear.cgColor
-        shadhinMusicView.mainBgView.layer.shadowOffset = CGSize(width: 0, height: 0)
-        shadhinMusicView.mainBgView.layer.shadowOpacity = 0
-        shadhinMusicView.mainBgView.layer.shadowRadius = 0
-     
-        // Corner radius
-        shadhinMusicView.mainBgViewCornerRadius = 0
-     
-        // Dynamic height
-        shadhinMusicView.onContentHeightUpdate = { height in
-            self.dprint("ShadhinMusicView Height: \(height)")
-        }
-    }
     
     // MARK: - Setup
     
@@ -355,10 +330,13 @@ extension ViewController: InitializationStatusDelegate {
 Customize the appearance and label of the "Discover" call-to-action button:
  
 ```swift
-shadhinMusicView.discoverCTABtnView.layer.borderColor = UIColor.red.cgColor
-shadhinMusicView.discoverCTABtnView.layer.cornerRadius = 0
-shadhinMusicView.discoverCTABtnLbl.textColor = .red
-shadhinMusicView.discoverCTABtnLbl.text = "Home"
+        
+shadhinMusicView.onStyleSetup = { musicView in
+    musicView.discoverCTABtnView.layer.borderColor = UIColor.red.cgColor
+    musicView.discoverCTABtnView.layer.cornerRadius = 0
+    musicView.discoverCTABtnLbl.textColor = .red
+    musicView.discoverCTABtnLbl.text = "Home"
+}
 ```
  
 ### Main Container Shadow
@@ -366,11 +344,14 @@ shadhinMusicView.discoverCTABtnLbl.text = "Home"
 Remove or adjust the drop shadow applied to the widget's main background container:
  
 ```swift
-shadhinMusicView.mainBgView.layer.masksToBounds = false
-shadhinMusicView.mainBgView.layer.shadowColor = UIColor.clear.cgColor
-shadhinMusicView.mainBgView.layer.shadowOffset = CGSize(width: 0, height: 0)
-shadhinMusicView.mainBgView.layer.shadowOpacity = 0
-shadhinMusicView.mainBgView.layer.shadowRadius = 0
+shadhinMusicView.onStyleSetup = { musicView in
+    // Main container border shadow
+      musicView.mainBgView.layer.masksToBounds = false
+      musicView.mainBgView.layer.shadowColor = UIColor.clear.cgColor
+      musicView.mainBgView.layer.shadowOffset = .zero
+      musicView.mainBgView.layer.shadowOpacity = 0
+      musicView.mainBgView.layer.shadowRadius = 0
+}
 ```
  
 ### Corner Radius
@@ -378,7 +359,10 @@ shadhinMusicView.mainBgView.layer.shadowRadius = 0
 Override the widget's default corner radius (applied to the main container and related masked views):
  
 ```swift
-shadhinMusicView.mainBgViewCornerRadius = 0
+shadhinMusicView.onStyleSetup = { musicView in
+    // Corner radius
+      musicView.mainBgViewCornerRadius = 0
+}
 ```
  
 ### Dynamic Height Closure
@@ -400,29 +384,29 @@ shadhinMusicView.onContentHeightUpdate = { height in
 A consolidated view of all customization points in context:
  
 ```swift
-override func viewDidLayoutSubviews() {
-    super.viewDidLayoutSubviews()
- 
+// UI Override Closer
+shadhinMusicView.onStyleSetup = { musicView in
+
     // Discover CTA button — radius, border color, text color, title text
-    shadhinMusicView.discoverCTABtnView.layer.borderColor = UIColor.red.cgColor
-    shadhinMusicView.discoverCTABtnView.layer.cornerRadius = 0
-    shadhinMusicView.discoverCTABtnLbl.textColor = .red
-    shadhinMusicView.discoverCTABtnLbl.text = "Home"
- 
+      musicView.discoverCTABtnView.layer.borderColor = UIColor.red.cgColor
+      musicView.discoverCTABtnView.layer.cornerRadius = 0
+      musicView.discoverCTABtnLbl.textColor = .red
+      musicView.discoverCTABtnLbl.text = "Home"
+            
     // Main container border shadow
-    shadhinMusicView.mainBgView.layer.masksToBounds = false
-    shadhinMusicView.mainBgView.layer.shadowColor = UIColor.clear.cgColor
-    shadhinMusicView.mainBgView.layer.shadowOffset = CGSize(width: 0, height: 0)
-    shadhinMusicView.mainBgView.layer.shadowOpacity = 0
-    shadhinMusicView.mainBgView.layer.shadowRadius = 0
- 
+      musicView.mainBgView.layer.masksToBounds = false
+      musicView.mainBgView.layer.shadowColor = UIColor.clear.cgColor
+      musicView.mainBgView.layer.shadowOffset = .zero
+      musicView.mainBgView.layer.shadowOpacity = 0
+      musicView.mainBgView.layer.shadowRadius = 0
+
     // Corner radius
-    shadhinMusicView.mainBgViewCornerRadius = 0
- 
-    // Dynamic height
-    shadhinMusicView.onContentHeightUpdate = { height in
-        self.dprint("ShadhinMusicView Height: \(height)")
-    }
+      musicView.mainBgViewCornerRadius = 0
+}
+
+ // Dynamic height
+ shadhinMusicView.onContentHeightUpdate = { height in
+     print("ShadhinMusicView Height: \(height)")
 }
 ```
  
@@ -432,6 +416,7 @@ override func viewDidLayoutSubviews() {
 | `discoverCTABtnLbl.textColor` / `.text` | CTA label color & title | Default label color, `"Discover"` |
 | `mainBgView.layer.shadow*` | Drop shadow on the main container | Enabled (label-color shadow, offset 3,3, opacity 0.5, radius 5) |
 | `mainBgViewCornerRadius` | Corner radius applied to the main container | `16.0` |
+| `onStyleSetup` | Single closure to apply all UI style overrides together (CTA button, shadow, corner radius) in one pass | `nil` (not observed) |
 | `onContentHeightUpdate` | Reports live content height for dynamic sizing | `nil` (not observed) |
 
 ---
