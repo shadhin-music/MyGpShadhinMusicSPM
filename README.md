@@ -371,7 +371,7 @@ shadhinMusicView.onStyleSetup = { musicView in
  
 ```swift
 shadhinMusicView.onContentHeightUpdate = { height in
-    self.dprint("ShadhinMusicView Height: \(height)")
+    print("ShadhinMusicView Height: \(height)")
     // Use this value to update your cell/row height and
     // call collectionView.performBatchUpdates / invalidateLayout
 }

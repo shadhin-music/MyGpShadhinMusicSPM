@@ -64509,6 +64509,154 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onStyleSetup",
+            "printedName": "onStyleSetup",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Shadhin_Gp.ShadhinMusicView) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Shadhin_Gp.ShadhinMusicView) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ShadhinMusicView",
+                        "printedName": "Shadhin_Gp.ShadhinMusicView",
+                        "usr": "c:@M@Shadhin_Gp@objc(cs)ShadhinMusicView"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Shadhin_Gp0A9MusicViewC12onStyleSetupyACcSgvp",
+            "mangledName": "$s10Shadhin_Gp0A9MusicViewC12onStyleSetupyACcSgvp",
+            "moduleName": "Shadhin_Gp",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Shadhin_Gp.ShadhinMusicView) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Shadhin_Gp.ShadhinMusicView) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ShadhinMusicView",
+                            "printedName": "Shadhin_Gp.ShadhinMusicView",
+                            "usr": "c:@M@Shadhin_Gp@objc(cs)ShadhinMusicView"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0A9MusicViewC12onStyleSetupyACcSgvg",
+                "mangledName": "$s10Shadhin_Gp0A9MusicViewC12onStyleSetupyACcSgvg",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Shadhin_Gp.ShadhinMusicView) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Shadhin_Gp.ShadhinMusicView) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ShadhinMusicView",
+                            "printedName": "Shadhin_Gp.ShadhinMusicView",
+                            "usr": "c:@M@Shadhin_Gp@objc(cs)ShadhinMusicView"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0A9MusicViewC12onStyleSetupyACcSgvs",
+                "mangledName": "$s10Shadhin_Gp0A9MusicViewC12onStyleSetupyACcSgvs",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Shadhin_Gp0A9MusicViewC12onStyleSetupyACcSgvM",
+                "mangledName": "$s10Shadhin_Gp0A9MusicViewC12onStyleSetupyACcSgvM",
+                "moduleName": "Shadhin_Gp",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "awakeFromNib",
             "printedName": "awakeFromNib()",
@@ -153206,42 +153354,42 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 16566,
+      "offset": 16503,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 16593,
+      "offset": 16530,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 16618,
+      "offset": 16555,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 21689,
+      "offset": 21626,
       "length": 22,
       "value": "\"RefreshUserPlaylists\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 21768,
+      "offset": 21705,
       "length": 19,
       "value": "\"miniPlayerDidShow\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 21844,
+      "offset": 21781,
       "length": 19,
       "value": "\"miniPlayerDidHide\""
     },
@@ -160710,49 +160858,49 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 33336,
+      "offset": 33423,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 33349,
+      "offset": 33436,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 33481,
+      "offset": 33568,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 33485,
+      "offset": 33572,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 33526,
+      "offset": 33613,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 33530,
+      "offset": 33617,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 33533,
+      "offset": 33620,
       "length": 2,
       "value": "21"
     },

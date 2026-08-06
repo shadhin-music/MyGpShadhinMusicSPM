@@ -3119,6 +3119,7 @@ public class JSONHubProtocol : Shadhin_Gp.HubProtocol {
   @_Concurrency.MainActor @preconcurrency public static var shortsSelectContent: Shadhin_Gp.ReelsContent?
   @_Concurrency.MainActor @preconcurrency public var mainBgViewCornerRadius: CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency public var onContentHeightUpdate: ((CoreFoundation.CGFloat) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onStyleSetup: ((Shadhin_Gp.ShadhinMusicView) -> Swift.Void)?
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
