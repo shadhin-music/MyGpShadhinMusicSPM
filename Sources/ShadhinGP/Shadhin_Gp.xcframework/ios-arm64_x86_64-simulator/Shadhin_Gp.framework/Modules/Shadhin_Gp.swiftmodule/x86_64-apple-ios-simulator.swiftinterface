@@ -3157,6 +3157,7 @@ extension Shadhin_Gp.ShadhinMusicView : Shadhin_Gp.iCarouselDataSource, Shadhin_
   #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func carousel(_ carousel: Shadhin_Gp.iCarousel, itemTransformForOffset offset: CoreFoundation.CGFloat, baseTransform: QuartzCore.CATransform3D) -> QuartzCore.CATransform3D
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func carouselDidEndScrollingAnimation(_ carousel: Shadhin_Gp.iCarousel)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func carousel(_ carousel: Shadhin_Gp.iCarousel, didSelectItemAt index: Swift.Int)
 }
 public protocol ShadhinMusicViewDelegate : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
