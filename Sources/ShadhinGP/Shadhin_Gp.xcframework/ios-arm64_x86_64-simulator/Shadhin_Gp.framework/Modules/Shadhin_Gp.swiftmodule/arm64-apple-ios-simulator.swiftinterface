@@ -622,6 +622,12 @@ extension Shadhin_Gp.AlbumDownloaded {
   }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var copyright: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @NSManaged nonisolated dynamic public var date: Foundation.Date? {
     @objc get
     @objc set
@@ -3040,6 +3046,12 @@ extension Shadhin_Gp.DownloadRemaing {
   }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var copyright: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @NSManaged nonisolated dynamic public var date: Foundation.Date? {
     @objc get
     @objc set
@@ -5351,6 +5363,7 @@ public enum ShadhinGpAnalyticsEvent {
   case shortsItemClick(title: Swift.String, contentId: Swift.String, contentType: Swift.String)
   case playPauseMusicClick(currentTime: CoreFoundation.CGFloat, isPlaying: Swift.Bool, title: Swift.String, contentId: Swift.String, contentType: Swift.String)
   case previousMusicClick
+  case searchClick
   case nextMusicClick
   case sliderDidClick
   case logoClick
@@ -5434,6 +5447,12 @@ extension Shadhin_Gp.SongsDownload {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @objc @NSManaged nonisolated dynamic public var contentType: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var copyright: Swift.String? {
     @objc get
     @objc set
   }
