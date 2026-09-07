@@ -61687,6 +61687,13 @@
       },
       {
         "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "Shadhin_Gp"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -153945,42 +153952,42 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 16477,
+      "offset": 16263,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 16504,
+      "offset": 16290,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 16529,
+      "offset": 16315,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 21173,
+      "offset": 20959,
       "length": 22,
       "value": "\"RefreshUserPlaylists\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 21252,
+      "offset": 21038,
       "length": 19,
       "value": "\"miniPlayerDidShow\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/HomeV3\/HomeVCv3.swift",
       "kind": "StringLiteral",
-      "offset": 21328,
+      "offset": 21114,
       "length": 19,
       "value": "\"miniPlayerDidHide\""
     },
@@ -156059,182 +156066,182 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7057,
+      "offset": 7192,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10978,
+      "offset": 11148,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11247,
+      "offset": 11417,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 13018,
+      "offset": 13188,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 13173,
+      "offset": 13343,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13459,
+      "offset": 13629,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13622,
+      "offset": 13792,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 14333,
+      "offset": 14503,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 14570,
+      "offset": 14740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 16171,
+      "offset": 16341,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 16477,
+      "offset": 16647,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 17302,
+      "offset": 17472,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 17314,
+      "offset": 17484,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 17403,
+      "offset": 17573,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 17653,
+      "offset": 17823,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 17665,
+      "offset": 17835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 17924,
+      "offset": 18094,
       "length": 5,
       "value": "-1002"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 18000,
+      "offset": 18170,
       "length": 4,
       "value": "\"LM\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 18175,
+      "offset": 18345,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 18187,
+      "offset": 18357,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 18686,
+      "offset": 18856,
       "length": 6,
       "value": "\"from\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 18704,
+      "offset": 18874,
       "length": 4,
       "value": "\"to\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 19036,
+      "offset": 19206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 19243,
+      "offset": 19413,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 26533,
+      "offset": 26703,
       "length": 33,
       "value": "\"AudioPlayerGlobalStateDidChange\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Library\/AudioPlayer\/player\/AudioPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 26634,
+      "offset": 26804,
       "length": 32,
       "value": "\"AudioPlayerGlobalItemDidChange\""
     },
@@ -160728,7 +160735,105 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 675,
+      "length": 43,
+      "value": "\"com.shadhin.connectionmanager.pathmonitor\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 919,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1121,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1802,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1859,
+      "length": 37,
+      "value": "\"com.shadhin.connectionmanager.probe\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2933,
+      "length": 17,
+      "value": "\"www.gstatic.com\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2997,
+      "length": 3,
+      "value": "443"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 3295,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3675,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3723,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 4026,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4811,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4904,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5051,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Utilities\/ConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13971,
       "length": 22,
       "value": "\"networkStatusChanged\""
     },
@@ -161441,85 +161546,106 @@
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3019,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2938,
+      "offset": 3064,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3188,
+      "offset": 3103,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3225,
+      "offset": 3196,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3265,
+      "offset": 3446,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3483,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3523,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "FloatLiteral",
-      "offset": 3320,
+      "offset": 3578,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 38797,
+      "offset": 41306,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 38810,
+      "offset": 41319,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 38942,
+      "offset": 41451,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 38946,
+      "offset": 41455,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 38987,
+      "offset": 41496,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 38991,
+      "offset": 41500,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 38994,
+      "offset": 41503,
       "length": 2,
       "value": "21"
     },
@@ -174189,49 +174315,49 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiContants.swift",
       "kind": "Dictionary",
-      "offset": 3059,
+      "offset": 3159,
       "length": 37,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiContants.swift",
       "kind": "StringLiteral",
-      "offset": 3175,
+      "offset": 3275,
       "length": 18,
       "value": "\"andgraphicdesign\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiContants.swift",
       "kind": "StringLiteral",
-      "offset": 3211,
+      "offset": 3311,
       "length": 18,
       "value": "\"shing1248andgrap\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiContants.swift",
       "kind": "BooleanLiteral",
-      "offset": 3273,
+      "offset": 3373,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiContants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3323,
+      "offset": 3423,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiContants.swift",
       "kind": "StringLiteral",
-      "offset": 3351,
+      "offset": 3451,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiContants.swift",
       "kind": "Dictionary",
-      "offset": 3381,
+      "offset": 3481,
       "length": 7105,
       "value": "[(\"habib%20wahid\", \"Habib wahid is a Bangladeshi music composer, performer, producer &amp; singer. He has been successful working in the Bangladeshi music industry since 2003 when his first album “kirshno” got released, which was mainly made with a vision of re introducing old Bengali folk songs re made with a new sound completely to popularise them to the audience. Ever since then, he has worked on many original albums, flim songs, jingles for tv commercials etc. He has won several awards including a national award for uja contribution in the music industry. Habib wahid also has a major contribution in modernising the concept of Bangladeshi music videos through his video “Hariye fela bhalobasha” released in 2015. Since then he has been working regularly on producing and performing in his music videos. Apart from singing his own original songs, habib has features various artists over the years of which some gained tremendous success like Nancy, who has been known as a regular duet singing partner of habib. Habib wahid has performed in live concerts throughout many counties of the world like USA, Canada, uk, Australia, Dubai, Qatar, malaysia, and many more. Habib wahid is always appreciated by his fans for his unique, authentic and original approach towards composing music.\"), (\"shafin%20ahmed\", \"Shafin Ahmed as a composer, lyricist, singer and Bassist, is an icon today in the music industry. Exceptional musical talent inherited from his legendary parents, Kamal Dasgupta and Feroza Begum, combined with his own dedication applied over 40 years have established him permanently in the hearts and minds of millions of Bangla music listeners around the world.\"), (\"miles\", \"Miles was formed in 1979 in Dhaka, Bangladesh with eyes looking ahead on miles of travel through time in Music. After 40 years with many changes in the line up, Tours and achievements behind, the band is still pursuing the excellence in music. Considered one of the leading Rock Fusion bands of the Sub-Continent and perhaps the only band in Asia to exist at the top for so long with it’s core members, it has a very unique blend of Eastern &amp; Western music in their generic  Bangla Songs to create a very diversified trend in the Bengali music scene in Bangladesh, India, USA, Canada and rest of the world. Rich in melody, blended with power with very matured arrangements and application of instruments, Miles have their own distinct sound that has captured the heart and soul of the Bengali music fans all over the world for four decades now. In Bangladesh, Miles have so far released 2 English,  7 Bengali albums, and an EP, that are -  Miles, A Step Further, Protisruty, Prattasha, Prattay, Prabaha, Pratiddhani, Protichobi, Proticchobi Delux, and Prayash and in India 3 albums: Best of volume 1 &amp; Volume 2. and Proborton. Each of these albums are considered milestones for “Bangla Rock” music in Bangladesh as well as in India in terms of both sales &amp; unique blend of Miles’ music.   USA, Canada, U.K., Italy, Germany, Austria, Switzerland, Australia. UAE,  and India are some of the countries that MILES have rocked along with numerous concerts in Bangladesh till date. It is the only Band in Bangladesh to have been covered by MTV, Channel “V”, CNN, BBC, Al-Jazeera, Star Plus, ETV India, B4U, Zee-TV and Tara Bangla. MILES has also made number of international appearances for charitable causes as well.   Miles’ current line up is- Hamin Ahmed-  Vocal &amp; Guitar, Shafin Ahmed- Vocal &amp; Bass, Manam Ahmed- Keyboards &amp; Vocal,  Ziaur Rahman Turja- Drums &amp; Percussions and Iqbal Asif Jewel- Guitar and Vocal.   Miles is determined to rock on with “Bangla Rock Fusion” for the international recognition and that determination is still driving the Band to miles of music ahead,!!\"), (\"popeye\", \"Popeye is a Bangladeshi music project that has been active for a decade. They do not perform in concerts, nor appear on television, and cannot be heard on the radio. Yet they have quietly garnered a cult following among rock-fusion lovers in Bangladesh over the last few years.\"), (\"the%20roads\", \"THE ROADS is a Rock band formed in Dhaka, Bangladesh. They started their musical journey from 2011. THE ROADS performed numerous shows LIVE shows, TV shows, Radio shows, Online shows etc. Their released songs are MonePore, Bristy, ChenaGaan, Sritir-Michil, Dakghor, Jadu Khela, MonDuary, Dheu and more. THE ROADS is grateful for the Love and Support from their fans to keep them encouraged and going forward. THE ROADS is - Aapel Mahmud (Voice & Lead Guitars), Zaki Mahmud (Rhythm Guitar & Manager), Blaze Rodrigues (Bass), Shirajul Islam Munna (Drums), Aapel Mahmud Labu (Keyboards). You can reach them at their fan-page: www.facebook.com\/theroadsbandbd\"), (\"micky\", \"Mehedi Hasan (born 1 April 2002), better known by his stage name Mïcky is a Singer, Songwriter, Music Producer, Composer and Dancer from Dhaka, Bangladesh. He is renowned for his unique ideas, not sticking to any specific genre and representing different vibes to everyone through his music. Also, he likes to combine and play with different genres. His first music was officially released on February 14, 2021, titled as 'Fragrance’. He started producing music when he was 16, but he is still underrated in his country. Mïcky wants to spread the message through his music that music is so beautiful that it can spread positivity and inspire people in their daily life and can help to reach their major goals. That's why he wants his listeners to be a part of his journey!\"), (\"ayan\", \"AYAN, a growing musician based in Dhaka, Bangladesh who has been making music from different genres, a versatile musician who has his unique touch in different songs he has worked in.\"), (\"eyecon\", \"EYECON, formerly known as A$H is an Artist originating from Sunamganj, Sylhet, Bangladesh. He started making music from the year 2016 and never looked back. He redefined his music style through the years and now he became more versatile excelling in a lot of genres. He belongs to the collective CLVR where they collectively work to bring new sounds and expression of art to display to the world. Genres: Pop Punk, Alternative Rock, Emo Rock, Hip-hop, R&B.\"), (\"feedback\", \"Feedback is a Bangladeshi rock band, formed in 4 October 1976 in Dhaka by keyboardist Foad Nasser Babu. Multiple lineup changes have taken place since 1976. They have released seven studio albums and have also appeared in some compilations. Their first appearance was in The Hotel Inter-continental (now the Sheraton), Dhaka, on 11 October 1976. Their first recorded song was 'Aye Din Chiro Din Robey' in 1980. After Labu Rahman joined the band in 1986, they started concerts out of the hotels. They released their first album Feedback and then Sragam Acoustics. Feedback performed at Shilpakala Academy on 25 September 1989, at Dhaka University on 16 December 1990, at Nicco Park, Kolkata on 26 January 1992, at Jadavpur University on 12 July 1994.\")]"
     },
@@ -174735,42 +174861,42 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApi+Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 1776,
+      "offset": 1801,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApi+Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 1820,
+      "offset": 1845,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApi+Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 2766,
+      "offset": 2833,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApi+Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 2810,
+      "offset": 2877,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApi+Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 6696,
+      "offset": 6786,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApi+Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 6740,
+      "offset": 6830,
       "length": 4,
       "value": "true"
     },
@@ -179776,27 +179902,27 @@
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiURL.swift",
       "kind": "StringLiteral",
       "offset": 27380,
-      "length": 72,
-      "value": "\"https:\/\/connect.shadhinmusic.com\/api\/v1\/contents\/home\/gp-init-patches\/\""
+      "length": 74,
+      "value": "\"https:\/\/connect.shadhinmusic.com\/api\/v1\/gp-contents\/home\/gp-init-patches\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiURL.swift",
       "kind": "StringLiteral",
-      "offset": 27488,
+      "offset": 27490,
       "length": 64,
       "value": "\"https:\/\/coreapi.shadhinmusic.com\/api\/v6\/Recommendation\/Patches\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiURL.swift",
       "kind": "StringLiteral",
-      "offset": 27634,
+      "offset": 27636,
       "length": 117,
       "value": "\"https:\/\/connect.shadhinmusic.com\/api\/v1\/personalization\/based-on-recent-listenings?usercode=GB25018083&days=\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/Model\/Api\/ShadhinApiURL.swift",
       "kind": "StringLiteral",
-      "offset": 27750,
+      "offset": 27752,
       "length": 1,
       "value": "\"\""
     },
@@ -181462,28 +181588,28 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Player\/VedioPlayer\/VideoPlayerVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 13074,
+      "offset": 13113,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Player\/VedioPlayer\/VideoPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 33681,
+      "offset": 33720,
       "length": 23,
       "value": "\"audioPlayNotification\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Player\/VedioPlayer\/VideoPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 33764,
+      "offset": 33803,
       "length": 24,
       "value": "\"audioPauseNotification\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Player\/VedioPlayer\/VideoPlayerVC.swift",
       "kind": "StringLiteral",
-      "offset": 33852,
+      "offset": 33891,
       "length": 28,
       "value": "\"audioBufferingNotification\""
     },
@@ -185011,21 +185137,28 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_Gp_Examaple-dzfnrfdfztnoedfhnxkhxbyequnm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_Gp\/IntermediateBuildFilesPath\/Shadhin_Gp_Examaple.build\/Release-iphonesimulator\/Shadhin_Gp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 79153,
+      "offset": 79165,
+      "length": 22,
+      "value": "\"widgetNointernetIcon\""
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_Gp_Examaple-dzfnrfdfztnoedfhnxkhxbyequnm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_Gp\/IntermediateBuildFilesPath\/Shadhin_Gp_Examaple.build\/Release-iphonesimulator\/Shadhin_Gp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 79347,
       "length": 16,
       "value": "\"winAndStreamBG\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_Gp_Examaple-dzfnrfdfztnoedfhnxkhxbyequnm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_Gp\/IntermediateBuildFilesPath\/Shadhin_Gp_Examaple.build\/Release-iphonesimulator\/Shadhin_Gp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 79335,
+      "offset": 79529,
       "length": 19,
       "value": "\"winAndStreamBGNew\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Library\/Developer\/Xcode\/DerivedData\/Shadhin_Gp_Examaple-dzfnrfdfztnoedfhnxkhxbyequnm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Shadhin_Gp\/IntermediateBuildFilesPath\/Shadhin_Gp_Examaple.build\/Release-iphonesimulator\/Shadhin_Gp.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 79528,
+      "offset": 79722,
       "length": 24,
       "value": "\"wt_animation_activated\""
     }
