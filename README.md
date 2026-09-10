@@ -38,7 +38,7 @@ https://github.com/shadhin-music/MyGpShadhinMusicSPM
 dependencies: [
     .package(
         url: "https://github.com/shadhin-music/MyGpShadhinMusicSPM",
-        from: "2.1.8"
+        from: "2.1.9"
     )
 ],
 targets: [
@@ -305,6 +305,9 @@ extension ViewController: InitializationStatusDelegate {
          case .logoClick:
              print("Logo Click")
 
+        case.searchClick:
+            dprint("Search Click")
+
         case .discoverBtnClick:
             print("Discover Button Click")
             
@@ -317,6 +320,50 @@ extension ViewController: InitializationStatusDelegate {
      }
  }
 ```
+
+
+
+### The ShadhinMusicGpSdkCore player APIs provide the Host App with both player control and player state observation capabilities.
+
+// Full Player dismiss/hide
+ShadhinGP.shared.dismissShadhinPlayer()
+
+ShadhinGP.shared.toggleMusicPlayback()
+
+ShadhinMusicGpSdkCore.pauseMusic()
+
+ShadhinMusicGpSdkCore.playMusic()
+
+```swift     
+// Full Player dismiss/hide
+      
+ShadhinGP.shared.dismissShadhinPlayer()
+
+```
+
+```swift
+// Current music Play ↔ Pause toggle
+
+ShadhinGP.shared.toggleMusicPlayback()
+
+```
+
+```swift
+// Current music Pause
+
+ShadhinMusicGpSdkCore.pauseMusic()
+
+```
+
+```swift
+// Current music Play
+
+ShadhinMusicGpSdkCore.playMusic()
+
+```
+
+The Host App can use these APIs according to its UI and playback requirements without directly interacting with the SDK's internal player or service implementation.
+
 ---
 
 ## 7. UI Customization Options
