@@ -325,15 +325,6 @@ extension ViewController: InitializationStatusDelegate {
 
 ### The ShadhinMusicGpSdkCore player APIs provide the Host App with both player control and player state observation capabilities.
 
-// Full Player dismiss/hide
-ShadhinGP.shared.dismissShadhinPlayer()
-
-ShadhinGP.shared.toggleMusicPlayback()
-
-ShadhinMusicGpSdkCore.pauseMusic()
-
-ShadhinMusicGpSdkCore.playMusic()
-
 ```swift     
 // Full Player dismiss/hide
       
