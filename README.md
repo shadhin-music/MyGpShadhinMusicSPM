@@ -38,7 +38,7 @@ https://github.com/shadhin-music/MyGpShadhinMusicSPM
 dependencies: [
     .package(
         url: "https://github.com/shadhin-music/MyGpShadhinMusicSPM",
-        from: "2.1.9"
+        from: "2.2.0"
     )
 ],
 targets: [
