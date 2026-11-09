@@ -41124,6 +41124,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Shadhin_Gp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -151148,21 +151158,21 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/UI\/MenuLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 796,
+      "offset": 858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/UI\/MenuLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 822,
+      "offset": 884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/UI\/MenuLoader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1209,
+      "offset": 1271,
       "length": 5,
       "value": "false"
     },
@@ -152856,217 +152866,217 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1324,
       "length": 4,
       "value": "\"LK\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1355,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1361,
+      "offset": 1385,
       "length": 3,
       "value": "\"R\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1391,
+      "offset": 1415,
       "length": 3,
       "value": "\"S\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1421,
+      "offset": 1445,
       "length": 6,
       "value": "\"PDHO\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1454,
+      "offset": 1478,
       "length": 6,
       "value": "\"PDVD\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1487,
+      "offset": 1511,
       "length": 3,
       "value": "\"V\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1541,
       "length": 3,
       "value": "\"P\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1547,
+      "offset": 1571,
       "length": 5,
       "value": "\"SUB\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1579,
+      "offset": 1603,
       "length": 4,
       "value": "\"MP\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1610,
+      "offset": 1634,
       "length": 4,
       "value": "\"BK\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1641,
+      "offset": 1665,
       "length": 6,
       "value": "\"LINK\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 3006,
+      "offset": 3030,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 3031,
+      "offset": 3055,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3089,
+      "offset": 3113,
       "length": 3,
       "value": "\"M\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3113,
+      "offset": 3137,
       "length": 3,
       "value": "\"E\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 3161,
       "length": 3,
       "value": "\"F\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3161,
+      "offset": 3185,
       "length": 3,
       "value": "\"G\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3185,
+      "offset": 3209,
       "length": 3,
       "value": "\"T\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3209,
+      "offset": 3233,
       "length": 3,
       "value": "\"L\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3233,
+      "offset": 3257,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3308,
       "length": 6,
       "value": "\"Male\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3310,
+      "offset": 3334,
       "length": 8,
       "value": "\"Female\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3338,
+      "offset": 3362,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3388,
+      "offset": 3412,
       "length": 4,
       "value": "\"gp\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3417,
+      "offset": 3441,
       "length": 4,
       "value": "\"bl\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3446,
+      "offset": 3470,
       "length": 6,
       "value": "\"robi\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3477,
+      "offset": 3501,
       "length": 8,
       "value": "\"airtel\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3510,
+      "offset": 3534,
       "length": 7,
       "value": "\"bkash\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3542,
+      "offset": 3566,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Utils\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3986,
+      "offset": 4010,
       "length": 5,
       "value": "\"300\""
     },
@@ -159259,6 +159269,13 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/Defaults\/ActiveDownloadTracker.swift",
+      "kind": "Dictionary",
+      "offset": 276,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Discover\/MusicArtistListVC.swift",
       "kind": "StringLiteral",
       "offset": 404,
@@ -161662,56 +161679,56 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 36548,
+      "offset": 36596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 46900,
+      "offset": 46948,
       "length": 3,
       "value": "220"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 46913,
+      "offset": 46961,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
-      "offset": 47045,
+      "offset": 47093,
       "length": 2,
       "value": "48"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 47049,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 47090,
-      "length": 2,
-      "value": "48"
-    },
-    {
-      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 47094,
-      "length": 1,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
       "kind": "IntegerLiteral",
       "offset": 47097,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47138,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47142,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ViewController\/MyGPWidget\/ShadhinMusicView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47145,
       "length": 2,
       "value": "21"
     },
@@ -168954,6 +168971,13 @@
       "value": "\"300\""
     },
     {
+      "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Podcast\/PodcastVC.swift",
+      "kind": "Dictionary",
+      "offset": 3278,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Controller\/Podcast\/CommentVC.swift",
       "kind": "IntegerLiteral",
       "offset": 614,
@@ -172778,21 +172802,21 @@
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/UI\/MoreMenuVC.swift",
       "kind": "Array",
-      "offset": 1553,
+      "offset": 1793,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/UI\/MoreMenuVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1639,
+      "offset": 1879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shadhinmusic\/Documents\/Murad Hossain\/gpmusicios\/Shadhin_Gp\/Shadhin\/Version3\/ShadhinCore\/UI\/MoreMenuVC.swift",
       "kind": "StringLiteral",
-      "offset": 1680,
+      "offset": 1920,
       "length": 2,
       "value": "\"\""
     },
